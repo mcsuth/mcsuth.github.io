@@ -64,13 +64,13 @@ img.imgofme {
     margin-bottom: 75px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 775px) {
   img.imgofme {
     width: 150px;
     height: auto;
   }
   img.proj {
-    width: 100%;
+    width: 75%;
     height: auto;
   }
   div.background {
