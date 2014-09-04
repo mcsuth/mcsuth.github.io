@@ -1,11 +1,13 @@
 
-http://username.github.io/archive.html
-http://username.github.io/atom.xml
-http://username.github.io/categories.html
-http://username.github.io/index.html
-http://username.github.io/pages.html
-http://username.github.io/rss.xml
-http://username.github.io/sitemap.txt
-http://username.github.io/tags.html
+http://mcsuth.github.io/archive.html
+http://mcsuth.github.io/atom.xml
+http://mcsuth.github.io/categories.html
+http://mcsuth.github.io/pages/about/index.html
+http://mcsuth.github.io/index.html
+http://mcsuth.github.io/pages.html
+http://mcsuth.github.io/rss.xml
+http://mcsuth.github.io/sitemap.txt
+http://mcsuth.github.io/tags.html
 
-http://username.github.io/core-samples/lessons/2011/12/29/jekyll-introduction
+http://mcsuth.github.io/2014/09/04/on-vacation-and-set-up-jekyll-because-of-jetlag
+http://mcsuth.github.io/2014/09/04/hola-world
