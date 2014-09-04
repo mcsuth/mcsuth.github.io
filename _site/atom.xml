@@ -4,7 +4,7 @@
  <title>Blogologo</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-04T06:12:05+02:00</updated>
+ <updated>2014-09-04T06:17:24+02:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -19,6 +19,16 @@
    <id>http://mcsuth.github.io/2014/09/04/on-vacation-and-set-up-jekyll-because-of-jetlag</id>
    <content type="html">
 &lt;p&gt;so tired! will style later. ..flsdflksdfm&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>On ghetto train in Italy. Leaving Firenze to Livirno</title>
+   <link href="http://mcsuth.github.io/2014/09/04/on-ghetto-train-in-italy-leaving-firenze-to-livirno"/>
+   <updated>2014-09-04T00:00:00+02:00</updated>
+   <id>http://mcsuth.github.io/2014/09/04/on-ghetto-train-in-italy-leaving-firenze-to-livirno</id>
+   <content type="html">
+&lt;p&gt;I just hopped onto a train in pursuit of a ferry that leave in the bumfuck ungodly hour of 8am. This vacation is more stressful than debugging someone else’s code that’s in some bizarre language.&lt;/p&gt;
 </content>
  </entry>
  

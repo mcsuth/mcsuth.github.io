@@ -5,8 +5,8 @@
         <description>Blogologo - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-04T06:12:05+02:00</lastBuildDate>
-        <pubDate>2014-09-04T06:12:05+02:00</pubDate>
+        <lastBuildDate>2014-09-04T06:17:24+02:00</lastBuildDate>
+        <pubDate>2014-09-04T06:17:24+02:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -17,6 +17,16 @@
 </description>
                 <link>http://mcsuth.github.io/2014/09/04/on-vacation-and-set-up-jekyll-because-of-jetlag</link>
                 <guid>http://mcsuth.github.io/2014/09/04/on-vacation-and-set-up-jekyll-because-of-jetlag</guid>
+                <pubDate>2014-09-04T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>On ghetto train in Italy. Leaving Firenze to Livirno</title>
+                <description>
+&lt;p&gt;I just hopped onto a train in pursuit of a ferry that leave in the bumfuck ungodly hour of 8am. This vacation is more stressful than debugging someone else’s code that’s in some bizarre language.&lt;/p&gt;
+</description>
+                <link>http://mcsuth.github.io/2014/09/04/on-ghetto-train-in-italy-leaving-firenze-to-livirno</link>
+                <guid>http://mcsuth.github.io/2014/09/04/on-ghetto-train-in-italy-leaving-firenze-to-livirno</guid>
                 <pubDate>2014-09-04T00:00:00+02:00</pubDate>
         </item>
 
