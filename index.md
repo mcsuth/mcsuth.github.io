@@ -8,7 +8,7 @@ tagline: Jet lagged in vacation and decided to transition from wordpress to jeky
 <ul>
   {% for post in site.posts limit: 10 %}  
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date:"%B %d, %Y" }}
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date:"%B %d, %Y" }} {{ post.content | strip_html | truncatewords:75}}
     </li>
   {% endfor %}
 </ul>
