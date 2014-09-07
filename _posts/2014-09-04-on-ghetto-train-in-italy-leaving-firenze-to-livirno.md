@@ -2,8 +2,8 @@
 layout: post
 title: "On ghetto train in Italy. Leaving Firenze to Livirno"
 description: ""
-category: 
-tags: []
+category: ['one', 'two']
+tags: ['ghetto', 'dfsdf']
 ---
 {% include JB/setup %}
 
