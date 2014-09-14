@@ -4,7 +4,7 @@
  <title>Blogologo</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-14T11:30:42-07:00</updated>
+ <updated>2014-09-14T12:23:04-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>TEST</title>
+   <title>Ippy Dolorem</title>
    <link href="http://mcsuth.github.io/uno/dos/tres/2014/09/14/test"/>
    <updated>2014-09-14T00:00:00-07:00</updated>
    <id>http://mcsuth.github.io/uno/dos/tres/2014/09/14/test</id>
@@ -46,9 +46,9 @@
  
  <entry>
    <title>First Jekyll Post</title>
-   <link href="http://mcsuth.github.io/2014/09/04/hola-world"/>
+   <link href="http://mcsuth.github.io/blah/2014/09/04/hola-world"/>
    <updated>2014-09-04T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2014/09/04/hola-world</id>
+   <id>http://mcsuth.github.io/blah/2014/09/04/hola-world</id>
    <content type="html">&lt;p&gt;Read &lt;a href=&quot;http://jekyllbootstrap.com/usage/jekyll-quick-start.html&quot;&gt;Jekyll Quick Start&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Complete usage and documentation available at: &lt;a href=&quot;http://jekyllbootstrap.com&quot;&gt;Jekyll Bootstrap&lt;/a&gt;&lt;/p&gt;

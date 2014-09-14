@@ -2,7 +2,7 @@
 layout: post
 title: "First Jekyll Post"
 description: "This is the first post on my Jekyll blog."
-category: 
+category: [Blah]
 tags: [Jekyll]
 ---
 
