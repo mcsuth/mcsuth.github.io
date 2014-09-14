@@ -23,8 +23,8 @@ tagline: Jet lagged in vacation and decided to transition from wordpress to jeky
 		  {% unless post.categories == empty %}
 		    <ul class="tag_box inline">
 		      <li>Categories: </li>
-		      {% assign tags_list = post.categories %}
-		      {% include JB/tags_list %}
+		      {% assign categories_list = post.categories %}
+		      {% include JB/categories_list %}
 		    </ul>
 		  {% endunless %}  
 
