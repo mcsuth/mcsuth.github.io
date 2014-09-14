@@ -4,7 +4,7 @@
  <title>Blogologo</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-14T10:38:39-07:00</updated>
+ <updated>2014-09-14T11:21:35-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -14,22 +14,13 @@
  
  <entry>
    <title>TEST</title>
-   <link href="http://mcsuth.github.io/2014/09/14/test"/>
+   <link href="http://mcsuth.github.io/uno/dos/tres/2014/09/14/test"/>
    <updated>2014-09-14T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2014/09/14/test</id>
+   <id>http://mcsuth.github.io/uno/dos/tres/2014/09/14/test</id>
    <content type="html">
 &lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.   &lt;/p&gt;
 
 &lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>new post</title>
-   <link href="http://mcsuth.github.io/2014/09/14/new-post"/>
-   <updated>2014-09-14T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2014/09/14/new-post</id>
-   <content type="html">
 </content>
  </entry>
  
@@ -54,7 +45,7 @@
  </entry>
  
  <entry>
-   <title>Hola world</title>
+   <title>First Jekyll Post</title>
    <link href="http://mcsuth.github.io/2014/09/04/hola-world"/>
    <updated>2014-09-04T00:00:00-07:00</updated>
    <id>http://mcsuth.github.io/2014/09/04/hola-world</id>

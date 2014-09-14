@@ -5,8 +5,8 @@
         <description>Blogologo - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-14T10:38:39-07:00</lastBuildDate>
-        <pubDate>2014-09-14T10:38:39-07:00</pubDate>
+        <lastBuildDate>2014-09-14T11:21:35-07:00</lastBuildDate>
+        <pubDate>2014-09-14T11:21:35-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -17,17 +17,8 @@
 
 &lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
 </description>
-                <link>http://mcsuth.github.io/2014/09/14/test</link>
-                <guid>http://mcsuth.github.io/2014/09/14/test</guid>
-                <pubDate>2014-09-14T00:00:00-07:00</pubDate>
-        </item>
-
-        <item>
-                <title>new post</title>
-                <description>
-</description>
-                <link>http://mcsuth.github.io/2014/09/14/new-post</link>
-                <guid>http://mcsuth.github.io/2014/09/14/new-post</guid>
+                <link>http://mcsuth.github.io/uno/dos/tres/2014/09/14/test</link>
+                <guid>http://mcsuth.github.io/uno/dos/tres/2014/09/14/test</guid>
                 <pubDate>2014-09-14T00:00:00-07:00</pubDate>
         </item>
 
@@ -52,7 +43,7 @@
         </item>
 
         <item>
-                <title>Hola world</title>
+                <title>First Jekyll Post</title>
                 <description>&lt;p&gt;Read &lt;a href=&quot;http://jekyllbootstrap.com/usage/jekyll-quick-start.html&quot;&gt;Jekyll Quick Start&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Complete usage and documentation available at: &lt;a href=&quot;http://jekyllbootstrap.com&quot;&gt;Jekyll Bootstrap&lt;/a&gt;&lt;/p&gt;

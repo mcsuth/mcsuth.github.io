@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Hola world"
-description: ""
+title: "First Jekyll Post"
+description: "This is the first post on my Jekyll blog."
 category: 
-tags: []
+tags: [Jekyll]
 ---
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
