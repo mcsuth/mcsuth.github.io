@@ -9,7 +9,5 @@ http://mcsuth.github.io/rss.xml
 http://mcsuth.github.io/sitemap.txt
 http://mcsuth.github.io/tags.html
 
-http://mcsuth.github.io/uno/dos/tres/2014/09/14/test
-http://mcsuth.github.io/2014/09/04/on-vacation-and-set-up-jekyll-because-of-jetlag
-http://mcsuth.github.io/one/two/2014/09/04/on-ghetto-train-in-italy-leaving-firenze-to-livirno
-http://mcsuth.github.io/blah/2014/09/04/hola-world
+http://mcsuth.github.io/2014/09/14/test
+http://mcsuth.github.io/2014/09/04/hola-world

@@ -5,8 +5,8 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-14T13:03:52-07:00</lastBuildDate>
-        <pubDate>2014-09-14T13:03:52-07:00</pubDate>
+        <lastBuildDate>2014-09-14T13:18:52-07:00</lastBuildDate>
+        <pubDate>2014-09-14T13:18:52-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -17,29 +17,9 @@
 
 &lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
 </description>
-                <link>http://mcsuth.github.io/uno/dos/tres/2014/09/14/test</link>
-                <guid>http://mcsuth.github.io/uno/dos/tres/2014/09/14/test</guid>
+                <link>http://mcsuth.github.io/2014/09/14/test</link>
+                <guid>http://mcsuth.github.io/2014/09/14/test</guid>
                 <pubDate>2014-09-14T00:00:00-07:00</pubDate>
-        </item>
-
-        <item>
-                <title>On vacation and set up Jekyll because of jetlag</title>
-                <description>
-&lt;p&gt;so tired! will style later. ..flsdflksdfm&lt;/p&gt;
-</description>
-                <link>http://mcsuth.github.io/2014/09/04/on-vacation-and-set-up-jekyll-because-of-jetlag</link>
-                <guid>http://mcsuth.github.io/2014/09/04/on-vacation-and-set-up-jekyll-because-of-jetlag</guid>
-                <pubDate>2014-09-04T00:00:00-07:00</pubDate>
-        </item>
-
-        <item>
-                <title>On ghetto train in Italy. Leaving Firenze to Livirno</title>
-                <description>
-&lt;p&gt;I just hopped onto a train in pursuit of a ferry that leave in the bumfuck ungodly hour of 8am. This vacation is more stressful than debugging someone else’s code that’s in some bizarre language.&lt;/p&gt;
-</description>
-                <link>http://mcsuth.github.io/one/two/2014/09/04/on-ghetto-train-in-italy-leaving-firenze-to-livirno</link>
-                <guid>http://mcsuth.github.io/one/two/2014/09/04/on-ghetto-train-in-italy-leaving-firenze-to-livirno</guid>
-                <pubDate>2014-09-04T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -73,8 +53,8 @@ When you don’t need the samples anymore just delete the &lt;code&gt;_posts/cor
 
 &lt;p&gt;Here’s a sample “posts list”.&lt;/p&gt;
 </description>
-                <link>http://mcsuth.github.io/blah/2014/09/04/hola-world</link>
-                <guid>http://mcsuth.github.io/blah/2014/09/04/hola-world</guid>
+                <link>http://mcsuth.github.io/2014/09/04/hola-world</link>
+                <guid>http://mcsuth.github.io/2014/09/04/hola-world</guid>
                 <pubDate>2014-09-04T00:00:00-07:00</pubDate>
         </item>
 
