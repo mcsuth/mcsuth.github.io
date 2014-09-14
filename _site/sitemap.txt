@@ -2,13 +2,15 @@
 http://mcsuth.github.io/archive.html
 http://mcsuth.github.io/atom.xml
 http://mcsuth.github.io/blog.html
-http://mcsuth.github.io/blog.html
 http://mcsuth.github.io/categories.html
+http://mcsuth.github.io/blog/index.html
 http://mcsuth.github.io/pages.html
 http://mcsuth.github.io/rss.xml
 http://mcsuth.github.io/sitemap.txt
 http://mcsuth.github.io/tags.html
 
+http://mcsuth.github.io/2014/09/14/test
+http://mcsuth.github.io/2014/09/14/new-post
 http://mcsuth.github.io/2014/09/04/on-vacation-and-set-up-jekyll-because-of-jetlag
 http://mcsuth.github.io/one/two/2014/09/04/on-ghetto-train-in-italy-leaving-firenze-to-livirno
 http://mcsuth.github.io/2014/09/04/hola-world
