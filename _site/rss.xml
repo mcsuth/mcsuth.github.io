@@ -5,8 +5,8 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-15T07:37:17-07:00</lastBuildDate>
-        <pubDate>2014-09-15T07:37:17-07:00</pubDate>
+        <lastBuildDate>2014-09-15T07:41:01-07:00</lastBuildDate>
+        <pubDate>2014-09-15T07:41:01-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -67,6 +67,16 @@ factorial(5)
         </item>
 
         <item>
+                <title>Last Day of Work in Boston</title>
+                <description>
+&lt;p&gt;Today is officially my last day at BII. I’m ready for something new. I have no idea what San Francisco holds for me, but all I know is that relocating from Boston to San Francisco with no concrete plan and a few quarters in my pocket is a huge risk that I will be undertaking. I understand the risks, but you know what they say: Big Risk = Big Reward… or was it Big Loss…?&lt;/p&gt;
+</description>
+                <link>http://mcsuth.github.io/life/2013/08/15/last-day-of-work-in-boston</link>
+                <guid>http://mcsuth.github.io/life/2013/08/15/last-day-of-work-in-boston</guid>
+                <pubDate>2013-08-15T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
                 <title>Work and the Stress</title>
                 <description>
 &lt;p&gt;I’m excited to be finishing up with my job this week as I will have free time to devote to studying before I move myself across the country. As of right now, I find it extremely difficult to allocate some time to devote to my personal project because of everyday life. My only free time is the weekend, but I always end up getting some sort of distraction. I.E. My mother likes to visit me and sleep for hours at my place… If there aren’t distractions, I end up getting allergies of some sort or something! I.E. I’ve got allergies right now!&lt;/p&gt;
@@ -79,8 +89,8 @@ factorial(5)
 
 &lt;p&gt;Peace, foolios!&lt;/p&gt;
 </description>
-                <link>http://mcsuth.github.io/2013/08/11/work-and-the-stress</link>
-                <guid>http://mcsuth.github.io/2013/08/11/work-and-the-stress</guid>
+                <link>http://mcsuth.github.io/life/2013/08/11/work-and-the-stress</link>
+                <guid>http://mcsuth.github.io/life/2013/08/11/work-and-the-stress</guid>
                 <pubDate>2013-08-11T00:00:00-07:00</pubDate>
         </item>
 
@@ -95,8 +105,8 @@ factorial(5)
 
 &lt;p&gt;Stay tuned y’all. Things are going to happen.&lt;/p&gt;
 </description>
-                <link>http://mcsuth.github.io/2012/09/04/hello-world</link>
-                <guid>http://mcsuth.github.io/2012/09/04/hello-world</guid>
+                <link>http://mcsuth.github.io/life/2012/09/04/hello-world</link>
+                <guid>http://mcsuth.github.io/life/2012/09/04/hello-world</guid>
                 <pubDate>2012-09-04T00:00:00-07:00</pubDate>
         </item>
 

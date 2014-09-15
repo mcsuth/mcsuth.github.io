@@ -2,8 +2,8 @@
 layout: post
 title: "Work and the Stress"
 description: ""
-category: 
-tags: []
+category: Life
+tags: [Boston]
 ---
 {% include JB/setup %}
 
