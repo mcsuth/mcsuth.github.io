@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-15T07:41:01-07:00</updated>
+ <updated>2014-09-15T07:43:19-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -55,15 +55,14 @@ When you don’t need the samples anymore just delete the &lt;code&gt;_posts/cor
    <id>http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials</id>
    <content type="html">
 &lt;pre&gt;
-def factorial(n)
-  if n == 0
-    1
-  else
-    n * factorial(n - 1)
-  end
-end
-factorial(5)
-//=&amp;gt; 120
+~ def factorial(n)
+~   if n == 0
+~     1
+~   else
+~     n * factorial(n - 1)
+~   end
+~ end
+~ factorial(5) // 120
 &lt;/pre&gt;
 </content>
  </entry>
