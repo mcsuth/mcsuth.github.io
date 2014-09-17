@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-16T18:57:53-07:00</updated>
+ <updated>2014-09-16T19:05:13-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -70,9 +70,9 @@ When you don’t need the samples anymore just delete the &lt;code&gt;_posts/cor
  
  <entry>
    <title>Substring, Substr, Slice</title>
-   <link href="http://mcsuth.github.io/2013/08/19/substring-substr-slice"/>
+   <link href="http://mcsuth.github.io/information/2013/08/19/substring-substr-slice"/>
    <updated>2013-08-19T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2013/08/19/substring-substr-slice</id>
+   <id>http://mcsuth.github.io/information/2013/08/19/substring-substr-slice</id>
    <content type="html">
 &lt;p&gt;Alright JavaScript, why must you have 3 methods that perform similar if not the same thing?&lt;/p&gt;
 
@@ -82,7 +82,7 @@ When you don’t need the samples anymore just delete the &lt;code&gt;_posts/cor
   &lt;li&gt;Slice&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This guys does a pretty good job at explaining the nuances of each method: &lt;a href=&quot;http://www.jacklmoore.com/notes/substring-substr-slice-javascript/&quot;&gt;http://www.jacklmoore.com/notes/substring-substr-slice-javascript/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This guys does a pretty good job at explaining the nuances of each method: &lt;a href=&quot;http://www.jacklmoore.com/notes/substring-substr-slice-javascript/&quot;&gt;jacklmoore.com/notes/substring-substr-slice-javascript/&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -128,9 +128,9 @@ When you don’t need the samples anymore just delete the &lt;code&gt;_posts/cor
  
  <entry>
    <title>Hello World</title>
-   <link href="http://mcsuth.github.io/life/2012/09/04/hello-world"/>
-   <updated>2012-09-04T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/life/2012/09/04/hello-world</id>
+   <link href="http://mcsuth.github.io/life/2013/07/25/hello-world"/>
+   <updated>2013-07-25T00:00:00-07:00</updated>
+   <id>http://mcsuth.github.io/life/2013/07/25/hello-world</id>
    <content type="html">
 &lt;p&gt;Hi Y’all,&lt;/p&gt;
 

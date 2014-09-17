@@ -3,7 +3,7 @@ layout: post
 title: "Hello World"
 description: ""
 category: [Life]
-tags: [Boston]
+tags: [Personal Banter]
 ---
 {% include JB/setup %}
 

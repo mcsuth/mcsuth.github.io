@@ -3,7 +3,7 @@ layout: post
 title: "Southeast Asian Water Festival"
 description: ""
 category: [Life]
-tags: [Boston]
+tags: [Personal Banter]
 ---
 {% include JB/setup %}
 

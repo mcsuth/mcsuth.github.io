@@ -3,7 +3,7 @@ layout: post
 title: "Last Day of Work in Boston"
 description: ""
 category: [Life]
-tags: [Boston]
+tags: [Personal Banter]
 ---
 {% include JB/setup %}
 

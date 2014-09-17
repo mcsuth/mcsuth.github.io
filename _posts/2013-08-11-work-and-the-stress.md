@@ -3,7 +3,7 @@ layout: post
 title: "Work and the Stress"
 description: ""
 category: [Life]
-tags: [Boston]
+tags: [Personal Banter]
 ---
 {% include JB/setup %}
 
