@@ -5,8 +5,8 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-16T18:54:56-07:00</lastBuildDate>
-        <pubDate>2014-09-16T18:54:56-07:00</pubDate>
+        <lastBuildDate>2014-09-16T18:57:53-07:00</lastBuildDate>
+        <pubDate>2014-09-16T18:57:53-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -50,14 +50,15 @@ When you don’t need the samples anymore just delete the &lt;code&gt;_posts/cor
                 <title>Recursive Ruby   Factorials</title>
                 <description>
 &lt;pre&gt;
-~ def factorial(n)
-~   if n == 0
-~     1
-~   else
-~     n * factorial(n - 1)
-~   end
-~ end
-~ factorial(5) // 120
+  def factorial(n)
+    if n == 0
+      1
+    else
+      n * factorial(n - 1)
+    end
+  end
+  
+  factorial(5) // 120
 &lt;/pre&gt;
 </description>
                 <link>http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials</link>

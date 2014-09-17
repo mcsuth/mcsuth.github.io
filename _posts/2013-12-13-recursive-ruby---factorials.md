@@ -8,12 +8,13 @@ tags: [Ruby]
 {% include JB/setup %}
 
 <pre>
-~ def factorial(n)
-~   if n == 0
-~     1
-~   else
-~     n * factorial(n - 1)
-~   end
-~ end
-~ factorial(5) // 120
+  def factorial(n)
+    if n == 0
+      1
+    else
+      n * factorial(n - 1)
+    end
+  end
+  
+  factorial(5) // 120
 </pre>
