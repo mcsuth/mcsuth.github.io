@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-16T18:50:17-07:00</updated>
+ <updated>2014-09-16T18:54:56-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -68,10 +68,28 @@ When you don’t need the samples anymore just delete the &lt;code&gt;_posts/cor
  </entry>
  
  <entry>
+   <title>Substring, Substr, Slice</title>
+   <link href="http://mcsuth.github.io/2013/08/19/substring-substr-slice"/>
+   <updated>2013-08-19T00:00:00-07:00</updated>
+   <id>http://mcsuth.github.io/2013/08/19/substring-substr-slice</id>
+   <content type="html">
+&lt;p&gt;Alright JavaScript, why must you have 3 methods that perform similar if not the same thing?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Substring&lt;/li&gt;
+  &lt;li&gt;Substr&lt;/li&gt;
+  &lt;li&gt;Slice&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This guys does a pretty good job at explaining the nuances of each method: &lt;a href=&quot;http://www.jacklmoore.com/notes/substring-substr-slice-javascript/&quot;&gt;http://www.jacklmoore.com/notes/substring-substr-slice-javascript/&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Southeast Asian Water Festival</title>
-   <link href="http://mcsuth.github.io/2013/08/17/southeast-asian-water-festival"/>
+   <link href="http://mcsuth.github.io/life/2013/08/17/southeast-asian-water-festival"/>
    <updated>2013-08-17T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2013/08/17/southeast-asian-water-festival</id>
+   <id>http://mcsuth.github.io/life/2013/08/17/southeast-asian-water-festival</id>
    <content type="html">
 &lt;p&gt;I attended the Annual Southeast Asian Water festival with the mom. It has been a while since I’ve gone to the festival and I figured that I might as well go since it might be my last. Also, I was trying to do everything in my power to delay telling my parents about my move to San Francisco.&lt;/p&gt;
 

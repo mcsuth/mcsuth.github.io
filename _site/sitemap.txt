@@ -11,7 +11,8 @@ http://mcsuth.github.io/tags.html
 
 http://mcsuth.github.io/2014/09/04/hola-world
 http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials
-http://mcsuth.github.io/2013/08/17/southeast-asian-water-festival
+http://mcsuth.github.io/2013/08/19/substring-substr-slice
+http://mcsuth.github.io/life/2013/08/17/southeast-asian-water-festival
 http://mcsuth.github.io/life/2013/08/15/last-day-of-work-in-boston
 http://mcsuth.github.io/life/2013/08/11/work-and-the-stress
 http://mcsuth.github.io/life/2012/09/04/hello-world
