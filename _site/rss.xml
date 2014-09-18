@@ -5,10 +5,28 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-16T19:05:13-07:00</lastBuildDate>
-        <pubDate>2014-09-16T19:05:13-07:00</pubDate>
+        <lastBuildDate>2014-09-17T17:42:55-07:00</lastBuildDate>
+        <pubDate>2014-09-17T17:42:55-07:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>First Factorial</title>
+                <description>
+&lt;pre&gt;&lt;code&gt;function myFactorial(input) {
+	if (input === 0) {
+		return (1);
+	} else {
+		return (input * myFactorial(input - 1));
+	}
+};
+myFactorial(4);     //24
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+                <link>http://mcsuth.github.io/2014/09/17/first-factorial</link>
+                <guid>http://mcsuth.github.io/2014/09/17/first-factorial</guid>
+                <pubDate>2014-09-17T00:00:00-07:00</pubDate>
+        </item>
 
         <item>
                 <title>First Jekyll Post</title>

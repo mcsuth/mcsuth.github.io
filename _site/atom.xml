@@ -4,13 +4,31 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-16T19:05:13-07:00</updated>
+ <updated>2014-09-17T17:42:55-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
    <email>seimith@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>First Factorial</title>
+   <link href="http://mcsuth.github.io/2014/09/17/first-factorial"/>
+   <updated>2014-09-17T00:00:00-07:00</updated>
+   <id>http://mcsuth.github.io/2014/09/17/first-factorial</id>
+   <content type="html">
+&lt;pre&gt;&lt;code&gt;function myFactorial(input) {
+	if (input === 0) {
+		return (1);
+	} else {
+		return (input * myFactorial(input - 1));
+	}
+};
+myFactorial(4);     //24
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
  
  <entry>
    <title>First Jekyll Post</title>
