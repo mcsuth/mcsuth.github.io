@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-17T18:22:43-07:00</updated>
+ <updated>2014-09-18T08:56:17-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -70,20 +70,18 @@ When you don’t need the samples anymore just delete the &lt;code&gt;_posts/cor
  
  <entry>
    <title>First Factorial</title>
-   <link href="http://mcsuth.github.io/2013/08/20/first-factorial"/>
+   <link href="http://mcsuth.github.io/solution/2013/08/20/first-factorial"/>
    <updated>2013-08-20T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2013/08/20/first-factorial</id>
+   <id>http://mcsuth.github.io/solution/2013/08/20/first-factorial</id>
    <content type="html">
-&lt;pre&gt;
-  function myFactorial(input) {
-  if (input === 0) {
-  return (1);
-  } else {
-  return (input * myFactorial(input - 1));
-  }
-  };
-  myFactorial(4);     // 24
-&lt;/pre&gt;
+&lt;p&gt;function myFactorial(input) {
+if (input === 0) {
+return (1);
+} else {
+return (input * myFactorial(input - 1));
+}
+};
+myFactorial(4);     // 24&lt;/p&gt;
 </content>
  </entry>
  
@@ -124,6 +122,25 @@ When you don’t need the samples anymore just delete the &lt;code&gt;_posts/cor
    <id>http://mcsuth.github.io/life/2013/08/15/last-day-of-work-in-boston</id>
    <content type="html">
 &lt;p&gt;Today is officially my last day at BII. I’m ready for something new. I have no idea what San Francisco holds for me, but all I know is that relocating from Boston to San Francisco with no concrete plan and a few quarters in my pocket is a huge risk that I will be undertaking. I understand the risks, but you know what they say: Big Risk = Big Reward… or was it Big Loss…?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>First Reverse</title>
+   <link href="http://mcsuth.github.io/2013/08/13/first-reverse"/>
+   <updated>2013-08-13T00:00:00-07:00</updated>
+   <id>http://mcsuth.github.io/2013/08/13/first-reverse</id>
+   <content type="html">
+&lt;pre&gt;&lt;code&gt;var myString = &quot;I will tell you that my name is Smith.&quot;;
+function myFunction(input) {
+  x = input.split(&quot;&quot;);
+  y = x.reverse();
+  return (y.join(&quot;&quot;));
+}
+console.log (myFunction(myString));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Explanation&lt;/em&gt;: You cannot simply reverse a string by implementing the &lt;strong&gt;reverse()&lt;/strong&gt; method as if it were an array. You must split each letter and space in the string such that they become separate elements, then you can reverse each element, and finally you can join the elements to form a new string.&lt;/p&gt;
 </content>
  </entry>
  

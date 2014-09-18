@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>First Factorial</title>
+    <title>First Reverse</title>
     <meta name="description" content="">
     <meta name="author" content="Smith Suth">
 
@@ -135,26 +135,26 @@
       <div class="col-md-6">
         
 <div class="">
-  <h1>First Factorial </h1>
+  <h1>First Reverse </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-xs-12">
     <div class="date">
-      <span>20 August 2013</span>
+      <span>13 August 2013</span>
     </div>
     <div class="content">
       
-<pre>
-  function myFactorial(input) {
-  if (input === 0) {
-  return (1);
-  } else {
-  return (input * myFactorial(input - 1));
-  }
-  };
-  myFactorial(4);     // 24
-</pre>
+<pre><code>var myString = "I will tell you that my name is Smith.";
+function myFunction(input) {
+  x = input.split("");
+  y = x.reverse();
+  return (y.join(""));
+}
+console.log (myFunction(myString));
+</code></pre>
+
+<p><em>Explanation</em>: You cannot simply reverse a string by implementing the <strong>reverse()</strong> method as if it were an array. You must split each letter and space in the string such that they become separate elements, then you can reverse each element, and finally you can join the elements to form a new string.</p>
 
     </div>
 
@@ -165,11 +165,11 @@
     <hr>
     <ul class="pagination">
     
-      <li class="prev"><a href="/information/2013/08/19/substring-substr-slice" title="Substring, Substr, Slice">&laquo; Previous</a></li>
+      <li class="prev"><a href="/life/2013/08/11/work-and-the-stress" title="Work and the Stress">&laquo; Previous</a></li>
     
       <li><a href="/archive.html">Archive</a></li>
     
-      <li class="next"><a href="/solution/2013/12/13/recursive-ruby---factorials" title="Recursive Ruby   Factorials">Next &raquo;</a></li>
+      <li class="next"><a href="/life/2013/08/15/last-day-of-work-in-boston" title="Last Day of Work in Boston">Next &raquo;</a></li>
     
     </ul>
     <hr>
