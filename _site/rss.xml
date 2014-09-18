@@ -5,8 +5,8 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-18T08:56:17-07:00</lastBuildDate>
-        <pubDate>2014-09-18T08:56:17-07:00</pubDate>
+        <lastBuildDate>2014-09-18T08:57:47-07:00</lastBuildDate>
+        <pubDate>2014-09-18T08:57:47-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -49,17 +49,16 @@ When you don’t need the samples anymore just delete the &lt;code&gt;_posts/cor
         <item>
                 <title>Recursive Ruby   Factorials</title>
                 <description>
-&lt;pre&gt;
-  def factorial(n)
-    if n == 0
-      1
-    else
-      n * factorial(n - 1)
-    end
+&lt;pre&gt;&lt;code&gt;def factorial(n)
+  if n == 0
+    1
+  else
+    n * factorial(n - 1)
   end
-  
-  factorial(5) // 120
-&lt;/pre&gt;
+end
+
+factorial(5) // 120
+&lt;/code&gt;&lt;/pre&gt;
 </description>
                 <link>http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials</link>
                 <guid>http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials</guid>
@@ -69,14 +68,15 @@ When you don’t need the samples anymore just delete the &lt;code&gt;_posts/cor
         <item>
                 <title>First Factorial</title>
                 <description>
-&lt;p&gt;function myFactorial(input) {
-if (input === 0) {
-return (1);
-} else {
-return (input * myFactorial(input - 1));
-}
+&lt;pre&gt;&lt;code&gt;function myFactorial(input) {
+  if (input === 0) {
+    return (1);
+  } else {
+  return (input * myFactorial(input - 1));
+  }
 };
-myFactorial(4);     // 24&lt;/p&gt;
+myFactorial(4);     // 24
+&lt;/code&gt;&lt;/pre&gt;
 </description>
                 <link>http://mcsuth.github.io/solution/2013/08/20/first-factorial</link>
                 <guid>http://mcsuth.github.io/solution/2013/08/20/first-factorial</guid>

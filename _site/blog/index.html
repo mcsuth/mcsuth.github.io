@@ -187,30 +187,28 @@ When you don’t need the samples anymore just delete the <code>_posts/core-samp
     <!-- <li class=""> -->
       <h1 class=""><a href="/solution/2013/12/13/recursive-ruby---factorials">Recursive Ruby   Factorials</a><small><p>December 13, 2013</p></small></h1>
       <!-- <p>
-
-  def factorial(n)
-    if n == 0
-      1
-    else
-      n * factorial(n - 1)
-    end
+def factorial(n)
+  if n == 0
+    1
+  else
+    n * factorial(n - 1)
   end
-  
-  factorial(5) // 120
+end
+
+factorial(5) // 120
 
 </p> -->
       <p class="">
-<pre>
-  def factorial(n)
-    if n == 0
-      1
-    else
-      n * factorial(n - 1)
-    end
+<pre><code>def factorial(n)
+  if n == 0
+    1
+  else
+    n * factorial(n - 1)
   end
-  
-  factorial(5) // 120
-</pre>
+end
+
+factorial(5) // 120
+</code></pre>
 </p>
 
       <!-- TAGS AND CATEGORIES -->
@@ -257,14 +255,15 @@ When you don’t need the samples anymore just delete the <code>_posts/core-samp
       <h1 class=""><a href="/solution/2013/08/20/first-factorial">First Factorial</a><small><p>August 20, 2013</p></small></h1>
       <!-- <p>function myFactorial(input) { if (input === 0) { return (1); } else { return (input * myFactorial(input - 1)); }...</p> -->
       <p class="">
-<p>function myFactorial(input) {
-if (input === 0) {
-return (1);
-} else {
-return (input * myFactorial(input - 1));
-}
+<pre><code>function myFactorial(input) {
+  if (input === 0) {
+    return (1);
+  } else {
+  return (input * myFactorial(input - 1));
+  }
 };
-myFactorial(4);     // 24</p>
+myFactorial(4);     // 24
+</code></pre>
 </p>
 
       <!-- TAGS AND CATEGORIES -->
