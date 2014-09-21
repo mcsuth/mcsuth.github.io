@@ -5,8 +5,8 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-18T08:57:47-07:00</lastBuildDate>
-        <pubDate>2014-09-18T08:57:47-07:00</pubDate>
+        <lastBuildDate>2014-09-21T11:52:57-07:00</lastBuildDate>
+        <pubDate>2014-09-21T11:52:57-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -63,6 +63,15 @@ factorial(5) // 120
                 <link>http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials</link>
                 <guid>http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials</guid>
                 <pubDate>2013-12-13T00:00:00-08:00</pubDate>
+        </item>
+
+        <item>
+                <title>Longest Word</title>
+                <description>
+</description>
+                <link>http://mcsuth.github.io/2013/09/21/longest-word</link>
+                <guid>http://mcsuth.github.io/2013/09/21/longest-word</guid>
+                <pubDate>2013-09-21T00:00:00-07:00</pubDate>
         </item>
 
         <item>

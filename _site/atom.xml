@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-18T08:57:47-07:00</updated>
+ <updated>2014-09-21T11:52:57-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -64,6 +64,15 @@ end
 
 factorial(5) // 120
 &lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Longest Word</title>
+   <link href="http://mcsuth.github.io/2013/09/21/longest-word"/>
+   <updated>2013-09-21T00:00:00-07:00</updated>
+   <id>http://mcsuth.github.io/2013/09/21/longest-word</id>
+   <content type="html">
 </content>
  </entry>
  
