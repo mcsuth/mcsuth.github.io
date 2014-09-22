@@ -312,11 +312,39 @@ longestWord(sen);
 
 &lt;!-- &lt;li class=""&gt; --&gt;
   &lt;h1 class=""&gt;&lt;a href="/2013/08/23/letter-changes"&gt;Letter Changes&lt;/a&gt;&lt;small&gt;&lt;p&gt;August 23, 2013&lt;/p&gt;&lt;/small&gt;&lt;/h1&gt;
-  &lt;!-- &lt;p&gt;
+  &lt;!-- &lt;p&gt;Using the JavaScript language, have the function LetterChanges(str) take the str parameter being passed and modify it using the following...&lt;/p&gt; --&gt;
+  &lt;p class=""&gt;
 </code></pre>
-<p>&lt;/p&gt; –&gt;
-      &lt;p class=""&gt;
-&lt;/p&gt;</p>
+<p>Using the JavaScript language, have the function LetterChanges(str) take the str parameter being passed and modify it using the following algorithm. Replace every letter in the string with the letter following it in the alphabet (ie. c becomes d, z becomes a). Then capitalize every vowel in this new string (a, e, i, o, u) and finally return this modified string.</p>
+
+  	string = “Test.”;
+  	function letterChange(string) {
+<pre><code>  var newArray = string.split("");
+  var lowerCase = "abcdefghijklmnopqrstuvwxyz".split("");
+  var capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+  var holder = "";
+  for (var i = 0; i &amp;lt; newArray.length; i++) {
+    for (var k = 0 ; k &amp;lt; capital.length; k ++) {
+      if (newArray[i] === capital[k]) {
+        //console.log(newArray[i]+"--&amp;gt;"+capital[k-1]);
+        x = capital[k-1];
+        console.log(x);
+      }
+    }
+    for (var j = 0 ; j &amp;lt; lowerCase.length; j ++) {
+      if (newArray[i] === lowerCase[j]) {
+        //console.log(newArray[i]+"--&amp;gt;"+lowerCase[j-1]);
+        y = lowerCase[j-1];
+        console.log(y);
+      }
+    }
+  }
+}
+letterChange(string);
+</code></pre>
+
+<p>Will continue later. I’m off to NYC for the weekend!</p>
+<p>&lt;/p&gt;</p>
 
 <pre><code>  &lt;!-- TAGS AND CATEGORIES --&gt;
 	  &lt;!--   

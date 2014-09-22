@@ -5,8 +5,8 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-22T07:36:07-07:00</lastBuildDate>
-        <pubDate>2014-09-22T07:36:07-07:00</pubDate>
+        <lastBuildDate>2014-09-22T07:41:48-07:00</lastBuildDate>
+        <pubDate>2014-09-22T07:41:48-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -126,6 +126,35 @@ longestWord(sen);
         <item>
                 <title>Letter Changes</title>
                 <description>
+&lt;p&gt;Using the JavaScript language, have the function LetterChanges(str) take the str parameter being passed and modify it using the following algorithm. Replace every letter in the string with the letter following it in the alphabet (ie. c becomes d, z becomes a). Then capitalize every vowel in this new string (a, e, i, o, u) and finally return this modified string.&lt;/p&gt;
+
+  	string = “Test.”;
+  	function letterChange(string) {
+&lt;pre&gt;&lt;code&gt;  var newArray = string.split(&quot;&quot;);
+  var lowerCase = &quot;abcdefghijklmnopqrstuvwxyz&quot;.split(&quot;&quot;);
+  var capital = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;.split(&quot;&quot;);
+  var holder = &quot;&quot;;
+  for (var i = 0; i &amp;amp;lt; newArray.length; i++) {
+    for (var k = 0 ; k &amp;amp;lt; capital.length; k ++) {
+      if (newArray[i] === capital[k]) {
+        //console.log(newArray[i]+&quot;--&amp;amp;gt;&quot;+capital[k-1]);
+        x = capital[k-1];
+        console.log(x);
+      }
+    }
+    for (var j = 0 ; j &amp;amp;lt; lowerCase.length; j ++) {
+      if (newArray[i] === lowerCase[j]) {
+        //console.log(newArray[i]+&quot;--&amp;amp;gt;&quot;+lowerCase[j-1]);
+        y = lowerCase[j-1];
+        console.log(y);
+      }
+    }
+  }
+}
+letterChange(string);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Will continue later. I’m off to NYC for the weekend!&lt;/p&gt;
 </description>
                 <link>http://mcsuth.github.io/2013/08/23/letter-changes</link>
                 <guid>http://mcsuth.github.io/2013/08/23/letter-changes</guid>

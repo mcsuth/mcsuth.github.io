@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-22T07:36:07-07:00</updated>
+ <updated>2014-09-22T07:41:48-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -131,6 +131,35 @@ longestWord(sen);
    <updated>2013-08-23T00:00:00-07:00</updated>
    <id>http://mcsuth.github.io/2013/08/23/letter-changes</id>
    <content type="html">
+&lt;p&gt;Using the JavaScript language, have the function LetterChanges(str) take the str parameter being passed and modify it using the following algorithm. Replace every letter in the string with the letter following it in the alphabet (ie. c becomes d, z becomes a). Then capitalize every vowel in this new string (a, e, i, o, u) and finally return this modified string.&lt;/p&gt;
+
+  	string = “Test.”;
+  	function letterChange(string) {
+&lt;pre&gt;&lt;code&gt;  var newArray = string.split(&quot;&quot;);
+  var lowerCase = &quot;abcdefghijklmnopqrstuvwxyz&quot;.split(&quot;&quot;);
+  var capital = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;.split(&quot;&quot;);
+  var holder = &quot;&quot;;
+  for (var i = 0; i &amp;amp;lt; newArray.length; i++) {
+    for (var k = 0 ; k &amp;amp;lt; capital.length; k ++) {
+      if (newArray[i] === capital[k]) {
+        //console.log(newArray[i]+&quot;--&amp;amp;gt;&quot;+capital[k-1]);
+        x = capital[k-1];
+        console.log(x);
+      }
+    }
+    for (var j = 0 ; j &amp;amp;lt; lowerCase.length; j ++) {
+      if (newArray[i] === lowerCase[j]) {
+        //console.log(newArray[i]+&quot;--&amp;amp;gt;&quot;+lowerCase[j-1]);
+        y = lowerCase[j-1];
+        console.log(y);
+      }
+    }
+  }
+}
+letterChange(string);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Will continue later. I’m off to NYC for the weekend!&lt;/p&gt;
 </content>
  </entry>
  
