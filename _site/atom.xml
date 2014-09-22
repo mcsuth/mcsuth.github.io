@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-21T11:54:26-07:00</updated>
+ <updated>2014-09-22T07:36:07-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -122,6 +122,15 @@ longestWord(sen);
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This worked for me. The crossed out sections are superfluous, but I like to see my steps. You may remove them.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Letter Changes</title>
+   <link href="http://mcsuth.github.io/2013/08/23/letter-changes"/>
+   <updated>2013-08-23T00:00:00-07:00</updated>
+   <id>http://mcsuth.github.io/2013/08/23/letter-changes</id>
+   <content type="html">
 </content>
  </entry>
  
