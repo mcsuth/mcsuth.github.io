@@ -21,7 +21,7 @@ First things first, things to know before explaining how the Internet works:
 
 
 ##### Going to a website:
-1. When you turn on your computer and open your browser and type in *google*.com, what happens on your computer? Well, the first thing that happens is your computer goes through an ISP, which indirectly connects you to the Internet. And as stated above, servers that hold data, files, and webpages are directly connected to the Internet. So, the ISP connects with the Internet and then with the server that holds *google*.com. Shazam, the website loads.
+1. When you turn on your computer and open your browser and type in *google*.com, what happens on your computer? Well, the first thing that happens is your computer goes through an ISP, which indirectly connects you to the Internet. And as stated above, servers that hold data, files, and webpages are directly connected to the Internet. So, the ISP connects with the Internet and then with the server that holds *google*.com. 
 
 ##### Emailing (Gmail to Yahoo):
 2. Your computer connects to the Internet via an IPS, which then connects you to the Gmail servers so you can compose an email. When you press the ***send*** button your email is squashed into a data package and the Gmail servers route it to the Yahoo servers. When your friend opens up her Yahoo email her computer connected via an IPS to the Internet and then to the Yahoo servers to retreive the email that you sent.

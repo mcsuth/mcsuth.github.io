@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-23T07:38:32-07:00</updated>
+ <updated>2014-09-23T07:39:35-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -173,7 +173,7 @@ longestWord(sen);
 
 &lt;h5 id=&quot;going-to-a-website&quot;&gt;Going to a website:&lt;/h5&gt;
 &lt;ol&gt;
-  &lt;li&gt;When you turn on your computer and open your browser and type in &lt;em&gt;google&lt;/em&gt;.com, what happens on your computer? Well, the first thing that happens is your computer goes through an ISP, which indirectly connects you to the Internet. And as stated above, servers that hold data, files, and webpages are directly connected to the Internet. So, the ISP connects with the Internet and then with the server that holds &lt;em&gt;google&lt;/em&gt;.com. Shazam, the website loads.&lt;/li&gt;
+  &lt;li&gt;When you turn on your computer and open your browser and type in &lt;em&gt;google&lt;/em&gt;.com, what happens on your computer? Well, the first thing that happens is your computer goes through an ISP, which indirectly connects you to the Internet. And as stated above, servers that hold data, files, and webpages are directly connected to the Internet. So, the ISP connects with the Internet and then with the server that holds &lt;em&gt;google&lt;/em&gt;.com. &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h5 id=&quot;emailing-gmail-to-yahoo&quot;&gt;Emailing (Gmail to Yahoo):&lt;/h5&gt;
