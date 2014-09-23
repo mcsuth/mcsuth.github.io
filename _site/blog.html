@@ -250,41 +250,61 @@ factorial(5) // 120
 &lt;!-- &lt;li class=""&gt; --&gt;
   &lt;h1 class=""&gt;&lt;a href="/2013/09/21/longest-word"&gt;Longest Word&lt;/a&gt;&lt;small&gt;&lt;p&gt;September 21, 2013&lt;/p&gt;&lt;/small&gt;&lt;/h1&gt;
   &lt;!-- &lt;p&gt;Initial Though Process: Split the string into a new array Loop the new array and find the length of each...&lt;/p&gt; --&gt;
-  &lt;p class=""&gt;
+  &lt;p class=""&gt; &lt;h5 id="initial-though-process"&gt;Initial Though Process:&lt;/h5&gt;
 </code></pre>
-<p>Initial Though Process:</p>
+
 <ol>
-	<li><span style="text-decoration:underline;">Split</span> the string into a new array</li>
-	<li><span style="text-decoration:underline;">Loop</span> the new array and find the <span style="text-decoration:underline;">length</span> of each element</li>
-	<li>Create an <span style="text-decoration:underline;">if</span> statement that returns the longest element</li>
+  <li>
+    <p><strong><em>Split</em></strong> the string into a new array</p>
+  </li>
+  <li>
+    <p><strong><em>Loop</em></strong> the new array and find the <strong><em>length</em></strong> of each element</p>
+  </li>
+  <li>
+    <p>Create an <strong><em>if</em></strong> statement that returns the longest element</p>
+  </li>
 </ol>
+
 <p>However, I kept on getting lost between step 2 and three. I had set up the if statement, but I didn’t really know where to go with comparing the lengths of each element. I ended up googling for examples and saw that others created var longest = 0 and var word = null so that they can perform some substitution.</p>
 
-<p>New Thought Process:</p>
-<ol>
-	<li>Split the string into a new array</li>
-	<li>Create 2 variables (ie. var1, var2... in my case I used longest, word)</li>
-	<li>Loop the new array and find the length of each element</li>
-	<li>Create an if statement within the loop that executes if var1 (which is set to 0) is less than the length of the elements in the new array.</li>
-	<li>Because var1 was given the value of 0, each element within the new array will be tested against the condition: var1 &lt; length of element in new array.</li>
-	<li>Create substitutions so that each element will be compared with each other.</li>
-</ol>
-<ul>
-	<li>Basically, this is what happens:
-var1 = 0;
-if var1 &lt; newArray's element's length, then substitute:
-var1 = newArray's element's length and var2 = newArray's element</li>
-	<li>Round 1) var1 (value of zero) &lt; 1 (length of "I") so substitute...
-var1 = 1 (length of "I") and var2 = "I"</li>
-	<li>Round 2) var1 (value of 1 from "I") &lt; 4 (length of "love") so substitute...
-var1 = 4 (length of "love") and var2 = "love"</li>
-	<li>Round 3) var1 (value of 4 from "love") &lt; 6 (length of "eating") so substitute...
-var1 = 6 (length of "eating") and var2="eating"</li>
-	<li>Round 4) var 1 (length of 6 from "eating") &lt; 4 (length of "rice")... NOT TRUE SO STOP HERE</li>
-	<li>Round 5) return the value of var2 // "eating"</li>
-</ul>
+<h5 id="new-thought-process">New Thought Process:</h5>
 
-<pre><code>var sen = "I love eating rice.";
+<ol>
+  <li>
+    <p>Split the string into a new array</p>
+  </li>
+  <li>
+    <p>Create 2 variables (ie. var1, var2… in my case I used longest, word)</p>
+  </li>
+  <li>
+    <p>Loop the new array and find the length of each element</p>
+  </li>
+  <li>
+    <p>Create an if statement within the loop that executes if var1 (which is set to 0) is less than the length of the elements in the new array.</p>
+  </li>
+  <li>
+    <p>Because var1 was given the value of 0, each element within the new array will be tested against the condition: var1 &lt; length of element in new array.</p>
+  </li>
+  <li>
+    <p>Create substitutions so that each element will be compared with each other.</p>
+  </li>
+</ol>
+
+<h5 id="basically-this-is-what-happens">Basically, this is what happens:</h5>
+<pre><code>var1 = 0;   
+if var1 &amp;lt; newArray's element's length, then substitute:   
+var1 = newArray's element's length and var2 = newArray's element   
+Round 1) var1 (value of zero) &amp;lt; 1 (length of "I") so substitute...   
+var1 = 1 (length of "I") and var2 = "I"   
+Round 2) var1 (value of 1 from "I") &amp;lt; 4 (length of "love") so substitute...   
+var1 = 4 (length of "love") and var2 = "love"   
+Round 3) var1 (value of 4 from "love") &amp;lt; 6 (length of "eating") so substitute... 
+var1 = 6 (length of "eating") and var2="eating"   
+Round 4) var 1 (length of 6 from "eating") &amp;lt; 4 (length of "rice")... NOT TRUE SO STOP HERE   
+Round 5) return the value of var2 // "eating"
+
+
+var sen = "I love eating rice.";
 function longestWord(input) {
 	var newArray = input.split(" ");
 	var var1 = 0;
@@ -300,7 +320,7 @@ function longestWord(input) {
 longestWord(sen);
 </code></pre>
 
-<p>This worked for me. The crossed out sections are superfluous, but I like to see my steps. You may remove them.</p>
+<p>This worked for me. The crossed out sections are superfluous, but I like to see my steps.</p>
 <p>&lt;/p&gt;</p>
 
 <pre><code>  &lt;!-- TAGS AND CATEGORIES --&gt;
