@@ -5,8 +5,8 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-23T07:39:35-07:00</lastBuildDate>
-        <pubDate>2014-09-23T07:39:35-07:00</pubDate>
+        <lastBuildDate>2014-09-24T07:47:53-07:00</lastBuildDate>
+        <pubDate>2014-09-24T07:47:53-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -142,6 +142,15 @@ longestWord(sen);
                 <link>http://mcsuth.github.io/2013/09/21/longest-word</link>
                 <guid>http://mcsuth.github.io/2013/09/21/longest-word</guid>
                 <pubDate>2013-09-21T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Tech Vocab</title>
+                <description>
+</description>
+                <link>http://mcsuth.github.io/2013/09/13/tech-vocab</link>
+                <guid>http://mcsuth.github.io/2013/09/13/tech-vocab</guid>
+                <pubDate>2013-09-13T00:00:00-07:00</pubDate>
         </item>
 
         <item>
