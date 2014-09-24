@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-24T07:47:53-07:00</updated>
+ <updated>2014-09-24T07:51:04-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -152,6 +152,45 @@ longestWord(sen);
    <updated>2013-09-13T00:00:00-07:00</updated>
    <id>http://mcsuth.github.io/2013/09/13/tech-vocab</id>
    <content type="html">
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Client&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Clients are computers that are indirectly connected to the Internet through an Internet Service Provider (&quot;ISP&quot;).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Server&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A server is a special computer connected directly to the Internet.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Browser&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A browser is a software suite that is used to interpret webpages, images, videos, etc...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;IP Address&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;An IP Address (Internet Protocol Address) is a set of numbers, much like a phone number or postal number, that helps computers ind each other. We end up giving them names, or domains.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;DNS&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A DNS, or Domain Name System, a network/internet service that translates domain names into IP Addresses.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Front End&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Font End Developing is development that focuses on user interfaces. The languages involved for this type of development includes HTML, CSS, JavaScript, and jQuery.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Back End&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Back End Developing in development that focuses on the server side of programs. The languages involved for this type of development includes Node.JS, Ruby on Rails, Python, and more,
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Database&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A database is a collection of information that is organized in such a way that allows for fast retrieval.
+&lt;/code&gt;&lt;/pre&gt;
 </content>
  </entry>
  
