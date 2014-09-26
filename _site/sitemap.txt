@@ -9,9 +9,9 @@ http://mcsuth.github.io/rss.xml
 http://mcsuth.github.io/sitemap.txt
 http://mcsuth.github.io/tags.html
 
-http://mcsuth.github.io/back%20end/2014/09/25/hi-sachin
 http://mcsuth.github.io/2014/09/04/hola-world
 http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials
+http://mcsuth.github.io/2013/09/29/week-1-general-assembly---wdi-sf
 http://mcsuth.github.io/2013/09/21/san-fran-living
 http://mcsuth.github.io/2013/09/21/longest-word
 http://mcsuth.github.io/2013/09/13/tech-vocab
