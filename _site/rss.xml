@@ -5,10 +5,20 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-25T07:22:53-07:00</lastBuildDate>
-        <pubDate>2014-09-25T07:22:53-07:00</pubDate>
+        <lastBuildDate>2014-09-25T15:26:49-07:00</lastBuildDate>
+        <pubDate>2014-09-25T15:26:49-07:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Hi Sachin</title>
+                <description>
+&lt;h1 id=&quot;he-is-cool&quot;&gt;He is cool&lt;/h1&gt;
+</description>
+                <link>http://mcsuth.github.io/back%20end/2014/09/25/hi-sachin</link>
+                <guid>http://mcsuth.github.io/back%20end/2014/09/25/hi-sachin</guid>
+                <pubDate>2014-09-25T00:00:00-07:00</pubDate>
+        </item>
 
         <item>
                 <title>First Jekyll Post</title>
