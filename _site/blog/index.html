@@ -397,9 +397,25 @@ longestWord(sen);
     
     <!-- <li class=""> -->
       <h1 class=""><a href="/2013/09/18/code-school-javascript-part-2---17">Code School: JavaScript Part 2 - 1.7</a><small><p>September 18, 2013</p></small></h1>
-      <!-- <p>
-</p> -->
+      <!-- <p>var currentGen = 1; var totalGen = 19; var totalMW = 0; while (currentGen &amp;lt;= 4) { var megaWatts =...</p> -->
       <p class="">
+<pre><code>var currentGen = 1;
+var totalGen = 19;
+var totalMW = 0;
+
+while (currentGen &amp;lt;= 4) {
+  var megaWatts = 62;
+  var totalMW = totalMW + megaWatts;
+  console.log("Generator #" + currentGen + " is on, adding " + megaWatts + " MW, for a total of " + totalMW + " MW!");
+  currentGen ++;
+}
+
+for(var nextGen = currentGen; nextGen &amp;lt;= totalGen; nextGen++) {
+  var megaWatts = 124;
+  var totalMW = totalMW + megaWatts;
+  console.log("Generator #" + nextGen + " is on, adding " + megaWatts + " MW, for a total of " + totalMW + " MW!");
+}
+</code></pre>
 </p>
 
       <!-- TAGS AND CATEGORIES -->

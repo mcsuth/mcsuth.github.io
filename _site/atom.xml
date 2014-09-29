@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-29T09:42:44-07:00</updated>
+ <updated>2014-09-29T09:43:48-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -205,6 +205,23 @@ longestWord(sen);
    <updated>2013-09-18T00:00:00-07:00</updated>
    <id>http://mcsuth.github.io/2013/09/18/code-school-javascript-part-2---17</id>
    <content type="html">
+&lt;pre&gt;&lt;code&gt;var currentGen = 1;
+var totalGen = 19;
+var totalMW = 0;
+
+while (currentGen &amp;amp;lt;= 4) {
+  var megaWatts = 62;
+  var totalMW = totalMW + megaWatts;
+  console.log(&quot;Generator #&quot; + currentGen + &quot; is on, adding &quot; + megaWatts + &quot; MW, for a total of &quot; + totalMW + &quot; MW!&quot;);
+  currentGen ++;
+}
+
+for(var nextGen = currentGen; nextGen &amp;amp;lt;= totalGen; nextGen++) {
+  var megaWatts = 124;
+  var totalMW = totalMW + megaWatts;
+  console.log(&quot;Generator #&quot; + nextGen + &quot; is on, adding &quot; + megaWatts + &quot; MW, for a total of &quot; + totalMW + &quot; MW!&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
 </content>
  </entry>
  
