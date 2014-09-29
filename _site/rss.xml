@@ -5,8 +5,8 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-26T07:41:41-07:00</lastBuildDate>
-        <pubDate>2014-09-26T07:41:41-07:00</pubDate>
+        <lastBuildDate>2014-09-29T09:42:44-07:00</lastBuildDate>
+        <pubDate>2014-09-29T09:42:44-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -195,6 +195,15 @@ longestWord(sen);
                 <link>http://mcsuth.github.io/2013/09/21/longest-word</link>
                 <guid>http://mcsuth.github.io/2013/09/21/longest-word</guid>
                 <pubDate>2013-09-21T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Code School: JavaScript Part 2 - 1.7</title>
+                <description>
+</description>
+                <link>http://mcsuth.github.io/2013/09/18/code-school-javascript-part-2---17</link>
+                <guid>http://mcsuth.github.io/2013/09/18/code-school-javascript-part-2---17</guid>
+                <pubDate>2013-09-18T00:00:00-07:00</pubDate>
         </item>
 
         <item>

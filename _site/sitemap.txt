@@ -14,6 +14,7 @@ http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials
 http://mcsuth.github.io/2013/09/29/week-1-general-assembly---wdi-sf
 http://mcsuth.github.io/2013/09/21/san-fran-living
 http://mcsuth.github.io/2013/09/21/longest-word
+http://mcsuth.github.io/2013/09/18/code-school-javascript-part-2---17
 http://mcsuth.github.io/2013/09/13/tech-vocab
 http://mcsuth.github.io/2013/09/13/interwebz-how-you-doin-that
 http://mcsuth.github.io/2013/08/23/letter-changes

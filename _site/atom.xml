@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-26T07:41:41-07:00</updated>
+ <updated>2014-09-29T09:42:44-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -196,6 +196,15 @@ longestWord(sen);
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This worked for me. The crossed out sections are superfluous, but I like to see my steps.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Code School: JavaScript Part 2 - 1.7</title>
+   <link href="http://mcsuth.github.io/2013/09/18/code-school-javascript-part-2---17"/>
+   <updated>2013-09-18T00:00:00-07:00</updated>
+   <id>http://mcsuth.github.io/2013/09/18/code-school-javascript-part-2---17</id>
+   <content type="html">
 </content>
  </entry>
  
