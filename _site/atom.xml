@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-09-30T08:36:00-07:00</updated>
+ <updated>2014-09-30T08:37:51-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -18,6 +18,17 @@
    <updated>2014-09-30T00:00:00-07:00</updated>
    <id>http://mcsuth.github.io/2014/09/30/week-2-general-assembly--wdi-sf</id>
    <content type="html">
+&lt;p&gt;Cue in Beyonce’s song “Sweet Dreams” (http://youtu.be/JlxByc0-V40) because I’m dreaming about my code. Just recently (as in last night), I found myself recovering from downing too many shots and waking up thinking about an app that I created in class. I realized that I didn’t write anything to validate the user’s input. Woops… Another thing to do over the long weekend.&lt;/p&gt;
+
+&lt;p&gt;#### Re-Re-Cap of Last Week &lt;br /&gt;
+I forgot to mention all of the embarrassing things that happened to me during the first week. On the first day of class I ran straight into the glass door. Luckily, the door opens both ways so it wasn’t a horrible scene. Then, two days later, I spilled a cup of coffee all over the table. It was a hot mess!&lt;/p&gt;
+
+&lt;p&gt;#### Projects &lt;br /&gt;
+The first week was all about reviewing and reacquainting the students with languages. We created games that were played in the terminal, but the second week was the fun stuff. We began using Sinatra to put our projects into the browser. This new stage was a punch in my face because I realized that I’m stuck in the 90’s when it comes to designing with tables. What can I say? I love tables and all things square.&lt;/p&gt;
+
+&lt;p&gt;What I enjoy about this program is the progression of the projects. We initially started out creating interactive projects with Ruby in the terminal (via pry and irb). Then, we learned how to display it within our browser via Sinatra. Once we had a handle on that, we began to incorporate APIs and Json with our Ruby and Sinatra web app. A few days later, we’d redo one of our initial projects in Javascipt, jQuery, and Ajax.&lt;/p&gt;
+
+&lt;p&gt;Now, I enjoy the progression (so far), but it is by no means easy for me. I’ve spent many days in the last 2.5 weeks not sleeping, and if I was sleeping I would be dreaming.&lt;/p&gt;
 </content>
  </entry>
  
