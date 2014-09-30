@@ -5,10 +5,19 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-29T09:43:48-07:00</lastBuildDate>
-        <pubDate>2014-09-29T09:43:48-07:00</pubDate>
+        <lastBuildDate>2014-09-30T08:36:00-07:00</lastBuildDate>
+        <pubDate>2014-09-30T08:36:00-07:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Week 2: General Assembly – WDI SF</title>
+                <description>
+</description>
+                <link>http://mcsuth.github.io/2014/09/30/week-2-general-assembly--wdi-sf</link>
+                <guid>http://mcsuth.github.io/2014/09/30/week-2-general-assembly--wdi-sf</guid>
+                <pubDate>2014-09-30T00:00:00-07:00</pubDate>
+        </item>
 
         <item>
                 <title>First Jekyll Post</title>
