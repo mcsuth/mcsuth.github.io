@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Cue in Beyonce's song "Sweet Dreams" (http://youtu.be/JlxByc0-V40) because I'm dreaming about my code. Just recently (as in last night), I found myself recovering from downing too many shots and waking up thinking about an app that I created in class. I realized that I didn't write anything to validate the user's input. Woops... Another thing to do over the long weekend.
+Cue in Beyonce's song ["Sweet Dreams"](http://youtu.be/JlxByc0-V40) because I'm dreaming about my code. Just recently (as in last night), I found myself recovering from downing too many shots and waking up thinking about an app that I created in class. I realized that I didn't write anything to validate the user's input. Woops... Another thing to do over the long weekend.
 
 #### Re-Re-Cap of Last Week   
 I forgot to mention all of the embarrassing things that happened to me during the first week. On the first day of class I ran straight into the glass door. Luckily, the door opens both ways so it wasn't a horrible scene. Then, two days later, I spilled a cup of coffee all over the table. It was a hot mess!

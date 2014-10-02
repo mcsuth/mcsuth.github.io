@@ -19,4 +19,4 @@ Week three was all about databases and Ruby on Rails. We delved into Rails after
 And oh, the power of C.R.A.P (Contrast, Repetition, Alignment, Proximity) design. After three weeks, I've noticed that my front-end designing revolves heavily on centering. :-P
 
 #### The Weekend
-On a more restful note, I went to the Twin Peaks, theGolden Gate Park, and the beach on Saturday. I walked along the coast and ventured onto a tiny trail around the beach. After coding all day on Sunday, I went to [El Techo de Lolinda](http://eltechosf.com/) in the Mission, followed by movies at the Sundance Kabuki cinema.
+On a more restful note, I went to the Twin Peaks, the Golden Gate Park, and the beach on Saturday. I walked along the coast and ventured onto a tiny trail around the beach. After coding all day on Sunday, I went to [El Techo de Lolinda](http://eltechosf.com/) in the Mission, followed by movies at the Sundance Kabuki cinema.
