@@ -178,9 +178,9 @@ When you don’t need the samples anymore just delete the <code>_posts/core-samp
 </p>
 
       <!-- TAGS AND CATEGORIES -->
-		  <!--   
+      <!--   
 
-		     -->
+         -->
 
     <!-- </li> -->
     
@@ -212,11 +212,11 @@ factorial(5) // 120
 </p>
 
       <!-- TAGS AND CATEGORIES -->
-		  <!-- 
-		    <div class="tag_box inline">
-		      <div>Tags: </div>
-		      
-		      
+      <!-- 
+        <div class="tag_box inline">
+          <div>Tags: </div>
+          
+          
 
 
   
@@ -227,14 +227,14 @@ factorial(5) // 120
 
 
 
-		    </div>
-		    
+        </div>
+        
 
-		  
-		    <div class="tag_box inline">
-		      <div>Categories: </div>
-		      
-		      
+      
+        <div class="tag_box inline">
+          <div>Categories: </div>
+          
+          
 
 
   
@@ -246,8 +246,8 @@ factorial(5) // 120
   
 
 
-		    </div>
-		     -->
+        </div>
+         -->
 
     <!-- </li> -->
     
@@ -271,9 +271,9 @@ factorial(5) // 120
 </p>
 
       <!-- TAGS AND CATEGORIES -->
-		  <!--   
+      <!--   
 
-		     -->
+         -->
 
     <!-- </li> -->
     
@@ -295,9 +295,9 @@ factorial(5) // 120
 </p>
 
       <!-- TAGS AND CATEGORIES -->
-		  <!--   
+      <!--   
 
-		     -->
+         -->
 
     <!-- </li> -->
     
@@ -337,239 +337,24 @@ factorial(5) // 120
 </p>
 
       <!-- TAGS AND CATEGORIES -->
-		  <!--   
+      <!--   
 
-		     -->
-
-    <!-- </li> -->
-    
-    <!-- <li class=""> -->
-      <h1 class=""><a href="/2013/09/21/san-fran-living">San Fran Living</a><small><p>September 21, 2013</p></small></h1>
-      <!-- <p>I’ve been living in San Francisco for about 21 days so far and I like it. The neighborhoods are rich...</p> -->
-      <p class="">
-<p>I’ve been living in San Francisco for about 21 days so far and I like it. The neighborhoods are rich with culture and very vibrant. What I find even more enthralling is the overall jovial demeanor of the people. Perhaps it’s because I’ve been encountering individuals outside of the Financial District… Maybe it’s the weather.</p>
-
-<p>My story of coming to San Francisco, I think, is pretty normal. Long story short, I relocated from Boston to San Francisco after reaching a quarter-life crisis. At one point, I considered joining the military. For a good three years of my short life I really wanted to fly and piloting an F-14 had once been a dream of mine. I planned on entering the Air Force after high school, but then I was peer-pressured into applying to college… Everybody was doing it and I guess I had to as well. After college I contemplated about joining the Navy. Oh boy, to be on a carrier with a deck pitching as high as 30 feet every minute - fantastic (https://www.youtube.com/watch?v=4gGMI8d3vLs)!</p>
-
-<p>Operation “Join the Navy” began in March 2013. I covered spatial apperception, basic mechanical/thermal/electrical physics, GRE/GMAT Mathematics, and basic reading comprehension. In conjunction with the mental acrobatics, I went through a regimented physical schedule. It was a blast (not really). The culmination of this Naval preparation ended with a big nothing. I chickened out because I didn’t want to be a quitter (ironic?). It was either join the Navy forever or never for me. I wasn’t ready to make that commitment (the officer cutoff age is ~27 so I have some time to mull it over).</p>
-
-<p>Since the military idea was out of the picture, I decided to quit my job and move to San Francisco.</p>
-</p>
-
-      <!-- TAGS AND CATEGORIES -->
-		  <!--   
-
-		     -->
-
-    <!-- </li> -->
-    
-    <!-- <li class=""> -->
-      <h1 class=""><a href="/2013/09/21/longest-word">Longest Word</a><small><p>September 21, 2013</p></small></h1>
-      <!-- <p>Initial Though Process: Split the string into a new array Loop the new array and find the length of each...</p> -->
-      <p class="">
-<h5 id="initial-though-process">Initial Though Process:</h5>
-
-<ol>
-  <li>
-    <p><strong><em>Split</em></strong> the string into a new array</p>
-  </li>
-  <li>
-    <p><strong><em>Loop</em></strong> the new array and find the <strong><em>length</em></strong> of each element</p>
-  </li>
-  <li>
-    <p>Create an <strong><em>if</em></strong> statement that returns the longest element</p>
-  </li>
-</ol>
-
-<p>However, I kept on getting lost between step 2 and three. I had set up the if statement, but I didn’t really know where to go with comparing the lengths of each element. I ended up googling for examples and saw that others created var longest = 0 and var word = null so that they can perform some substitution.</p>
-
-<h5 id="new-thought-process">New Thought Process:</h5>
-
-<ol>
-  <li>
-    <p>Split the string into a new array</p>
-  </li>
-  <li>
-    <p>Create 2 variables (ie. var1, var2… in my case I used longest, word)</p>
-  </li>
-  <li>
-    <p>Loop the new array and find the length of each element</p>
-  </li>
-  <li>
-    <p>Create an if statement within the loop that executes if var1 (which is set to 0) is less than the length of the elements in the new array.</p>
-  </li>
-  <li>
-    <p>Because var1 was given the value of 0, each element within the new array will be tested against the condition: var1 &lt; length of element in new array.</p>
-  </li>
-  <li>
-    <p>Create substitutions so that each element will be compared with each other.</p>
-  </li>
-</ol>
-
-<h5 id="basically-this-is-what-happens">Basically, this is what happens:</h5>
-<pre><code>var1 = 0;   
-if var1 &amp;lt; newArray's element's length, then substitute:   
-var1 = newArray's element's length and var2 = newArray's element   
-Round 1) var1 (value of zero) &amp;lt; 1 (length of "I") so substitute...   
-var1 = 1 (length of "I") and var2 = "I"   
-Round 2) var1 (value of 1 from "I") &amp;lt; 4 (length of "love") so substitute...   
-var1 = 4 (length of "love") and var2 = "love"   
-Round 3) var1 (value of 4 from "love") &amp;lt; 6 (length of "eating") so substitute... 
-var1 = 6 (length of "eating") and var2="eating"   
-Round 4) var 1 (length of 6 from "eating") &amp;lt; 4 (length of "rice")... NOT TRUE SO STOP HERE   
-Round 5) return the value of var2 // "eating"
-
-
-var sen = "I love eating rice.";
-function longestWord(input) {
-	var newArray = input.split(" ");
-	var var1 = 0;
-	var var2 = "";
-	for (var i = 0; i &amp;lt; newArray.length; i++) {
-		if (var1 &amp;lt; newArray[i].length) {
-			var1 = newArray[i].length;
-			var2 = newArray[i];
-		}
-	}
-		return (var2 &lt;del&gt;+":"+var2.length&lt;/del&gt;);
-}
-longestWord(sen);
-</code></pre>
-
-<p>This worked for me. The crossed out sections are superfluous, but I like to see my steps.</p>
-</p>
-
-      <!-- TAGS AND CATEGORIES -->
-		  <!--   
-
-		     -->
-
-    <!-- </li> -->
-    
-    <!-- <li class=""> -->
-      <h1 class=""><a href="/2013/09/18/code-school-javascript-part-2---17">Code School: JavaScript Part 2 - 1.7</a><small><p>September 18, 2013</p></small></h1>
-      <!-- <p>var currentGen = 1; var totalGen = 19; var totalMW = 0; while (currentGen &amp;lt;= 4) { var megaWatts =...</p> -->
-      <p class="">
-<pre><code>var currentGen = 1;
-var totalGen = 19;
-var totalMW = 0;
-
-while (currentGen &amp;lt;= 4) {
-  var megaWatts = 62;
-  var totalMW = totalMW + megaWatts;
-  console.log("Generator #" + currentGen + " is on, adding " + megaWatts + " MW, for a total of " + totalMW + " MW!");
-  currentGen ++;
-}
-
-for(var nextGen = currentGen; nextGen &amp;lt;= totalGen; nextGen++) {
-  var megaWatts = 124;
-  var totalMW = totalMW + megaWatts;
-  console.log("Generator #" + nextGen + " is on, adding " + megaWatts + " MW, for a total of " + totalMW + " MW!");
-}
-</code></pre>
-</p>
-
-      <!-- TAGS AND CATEGORIES -->
-		  <!--   
-
-		     -->
-
-    <!-- </li> -->
-    
-    <!-- <li class=""> -->
-      <h1 class=""><a href="/2013/09/13/tech-vocab">Tech Vocab</a><small><p>September 13, 2013</p></small></h1>
-      <!-- <p>Client Clients are computers that are indirectly connected to the Internet through an Internet Service Provider ("ISP"). Server A server...</p> -->
-      <p class="">
-<p><strong><em>Client</em></strong></p>
-
-<pre><code>Clients are computers that are indirectly connected to the Internet through an Internet Service Provider ("ISP").
-</code></pre>
-
-<p><strong><em>Server</em></strong></p>
-
-<pre><code>A server is a special computer connected directly to the Internet.
-</code></pre>
-
-<p><strong><em>Browser</em></strong></p>
-
-<pre><code>A browser is a software suite that is used to interpret webpages, images, videos, etc...
-</code></pre>
-
-<p><strong><em>IP Address</em></strong></p>
-
-<pre><code>An IP Address (Internet Protocol Address) is a set of numbers, much like a phone number or postal number, that helps computers ind each other. We end up giving them names, or domains.
-</code></pre>
-
-<p><strong><em>DNS</em></strong></p>
-
-<pre><code>A DNS, or Domain Name System, a network/internet service that translates domain names into IP Addresses.
-</code></pre>
-
-<p><strong><em>Front End</em></strong></p>
-
-<pre><code>Font End Developing is development that focuses on user interfaces. The languages involved for this type of development includes HTML, CSS, JavaScript, and jQuery.
-</code></pre>
-
-<p><strong><em>Back End</em></strong></p>
-
-<pre><code>Back End Developing in development that focuses on the server side of programs. The languages involved for this type of development includes Node.JS, Ruby on Rails, Python, and more,
-</code></pre>
-
-<p><strong><em>Database</em></strong></p>
-
-<pre><code>A database is a collection of information that is organized in such a way that allows for fast retrieval.
-</code></pre>
-</p>
-
-      <!-- TAGS AND CATEGORIES -->
-		  <!--   
-
-		     -->
-
-    <!-- </li> -->
-    
-    <!-- <li class=""> -->
-      <h1 class=""><a href="/2013/09/13/interwebz-how-you-doin-that">Interwebz, How You Doin' That?</a><small><p>September 13, 2013</p></small></h1>
-      <!-- <p>What happens when you go to a website? Interesting question. One would suppose that unicorn rainbow farts and fireworks happens...</p> -->
-      <p class="">
-<p>What happens when you go to a website? Interesting question. One would suppose that unicorn rainbow farts and fireworks happens inside your computer and then the website appears. Then, more satanic dark things happen when you decide to go to Google.com and search something. Unfortunately, more simpler things happen.</p>
-
-<p>First things first, things to know before explaining how the Internet works:</p>
-
-<ol>
-  <li>
-    <p>The <strong><em>internet</em></strong> is essentially a wire.</p>
-  </li>
-  <li>
-    <p><strong><em>Servers</em></strong> are computers that store webpage files. These computers are connected <em>directly</em> to the internet.</p>
-  </li>
-  <li>
-    <p>Each server has a designated and unique IP address. This is similar to a phone number, but we give them a website name, or domain.</p>
-  </li>
-  <li>
-    <p>Our personal computers are not servers because they aren’t directly connected to the internet. Our personal computers are called clients and are connected <strong><em>indirectly</em></strong> to the internet via and internet service provider (“ISP”).</p>
-  </li>
-</ol>
-
-<h5 id="going-to-a-website">Going to a website:</h5>
-<ol>
-  <li>When you turn on your computer and open your browser and type in <em>google</em>.com, what happens on your computer? Well, the first thing that happens is your computer goes through an ISP, which indirectly connects you to the Internet. And as stated above, servers that hold data, files, and webpages are directly connected to the Internet. So, the ISP connects with the Internet and then with the server that holds <em>google</em>.com. </li>
-</ol>
-
-<h5 id="emailing-gmail-to-yahoo">Emailing (Gmail to Yahoo):</h5>
-<ol>
-  <li>Your computer connects to the Internet via an IPS, which then connects you to the Gmail servers so you can compose an email. When you press the <strong><em>send</em></strong> button your email is squashed into a data package and the Gmail servers route it to the Yahoo servers. When your friend opens up her Yahoo email her computer connected via an IPS to the Internet and then to the Yahoo servers to retreive the email that you sent.</li>
-</ol>
-</p>
-
-      <!-- TAGS AND CATEGORIES -->
-		  <!--   
-
-		     -->
+         -->
 
     <!-- </li> -->
   
-<!-- </ul> -->
+
+  <hr>
+    <ul class="pagination">
+    
+      <li class="prev disabled"><a>&larr; Previous</a></li>
+    
+      <li><a href="/archive.html">Archive</a></li>
+    
+      <li class="next disabled"><a>Next &rarr;</a>
+    
+    </ul>
+  <hr>
 
 <!-- USE THIS TO HIGHLIGHT CODE -->
 <!-- <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">ruby</span> <span class="n">code</span> <span class="k">in</span> <span class="n">here</span><span class="o">.</span><span class="n">.</span><span class="o">.</span></code></pre></div> -->
