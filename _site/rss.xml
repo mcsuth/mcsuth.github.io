@@ -5,30 +5,10 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-09-30T08:37:51-07:00</lastBuildDate>
-        <pubDate>2014-09-30T08:37:51-07:00</pubDate>
+        <lastBuildDate>2014-10-02T07:52:40-07:00</lastBuildDate>
+        <pubDate>2014-10-02T07:52:40-07:00</pubDate>
         <ttl>1800</ttl>
 
-
-        <item>
-                <title>Week 2: General Assembly – WDI SF</title>
-                <description>
-&lt;p&gt;Cue in Beyonce’s song “Sweet Dreams” (http://youtu.be/JlxByc0-V40) because I’m dreaming about my code. Just recently (as in last night), I found myself recovering from downing too many shots and waking up thinking about an app that I created in class. I realized that I didn’t write anything to validate the user’s input. Woops… Another thing to do over the long weekend.&lt;/p&gt;
-
-&lt;p&gt;#### Re-Re-Cap of Last Week &lt;br /&gt;
-I forgot to mention all of the embarrassing things that happened to me during the first week. On the first day of class I ran straight into the glass door. Luckily, the door opens both ways so it wasn’t a horrible scene. Then, two days later, I spilled a cup of coffee all over the table. It was a hot mess!&lt;/p&gt;
-
-&lt;p&gt;#### Projects &lt;br /&gt;
-The first week was all about reviewing and reacquainting the students with languages. We created games that were played in the terminal, but the second week was the fun stuff. We began using Sinatra to put our projects into the browser. This new stage was a punch in my face because I realized that I’m stuck in the 90’s when it comes to designing with tables. What can I say? I love tables and all things square.&lt;/p&gt;
-
-&lt;p&gt;What I enjoy about this program is the progression of the projects. We initially started out creating interactive projects with Ruby in the terminal (via pry and irb). Then, we learned how to display it within our browser via Sinatra. Once we had a handle on that, we began to incorporate APIs and Json with our Ruby and Sinatra web app. A few days later, we’d redo one of our initial projects in Javascipt, jQuery, and Ajax.&lt;/p&gt;
-
-&lt;p&gt;Now, I enjoy the progression (so far), but it is by no means easy for me. I’ve spent many days in the last 2.5 weeks not sleeping, and if I was sleeping I would be dreaming.&lt;/p&gt;
-</description>
-                <link>http://mcsuth.github.io/2014/09/30/week-2-general-assembly--wdi-sf</link>
-                <guid>http://mcsuth.github.io/2014/09/30/week-2-general-assembly--wdi-sf</guid>
-                <pubDate>2014-09-30T00:00:00-07:00</pubDate>
-        </item>
 
         <item>
                 <title>First Jekyll Post</title>
@@ -86,23 +66,60 @@ factorial(5) // 120
         </item>
 
         <item>
+                <title>Week 3: General Assembly – WDI SF (The Long Weekend)</title>
+                <description>
+&lt;p&gt;Week three was all about databases and Ruby on Rails. We delved into Rails after creating apps with Sinatra, and I’d have to say that Sinatra is extremely light in comparison to Rails. The process of generating your model(s) and your controller(s) with Rails is like magic. However, keeping track of what’s going on in each .rb and .html.erb file is pretty insane. One of the labs we had was to re-create &lt;a title=&quot;Bit.ly&quot; href=&quot;https://bitly.com/&quot;&gt;Bitly&lt;/a&gt;. We were told to approach the project via &lt;a href=&quot;http://en.wikipedia.org/wiki/Representational_state_transfer&quot;&gt;RESTful&lt;/a&gt; routing and so I jangled my way up to the point where I had no idea how to route my new url to the specified website.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mcsuth.files.wordpress.com/2013/10/screen-shot-2013-10-14-at-12-13-02-pm.png&quot;&gt;&lt;img class=&quot;size-medium wp-image-326 aligncenter&quot; alt=&quot;Screen Shot 2013-10-14 at 12.13.02 PM&quot; src=&quot;http://mcsuth.files.wordpress.com/2013/10/screen-shot-2013-10-14-at-12-13-02-pm.png?w=300&quot; width=&quot;300&quot; height=&quot;148&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And oh, the power of C.R.A.P (Contrast, Repetition, Alignment, Proximity) design. After three weeks, I’ve noticed that my front-end designing revolves heavily on centering. :-P&lt;/p&gt;
+
+&lt;p&gt;On a more restful note, I went to the Twin Peaks, theGolden Gate Park, and the beach on Saturday. I walked along the coast and ventured onto a tiny trail around the beach. After coding all day on Sunday, I went to &lt;a href=&quot;http://eltechosf.com/&quot;&gt;El Techo de Lolinda&lt;/a&gt; in the Mission, followed by movies at the Sundance Kabuki cinema.&lt;/p&gt;
+</description>
+                <link>http://mcsuth.github.io/2013/10/15/week-3-general-assembly--wdi-sf-the-long-weekend</link>
+                <guid>http://mcsuth.github.io/2013/10/15/week-3-general-assembly--wdi-sf-the-long-weekend</guid>
+                <pubDate>2013-10-15T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Week 2: General Assembly – WDI SF</title>
+                <description>
+&lt;p&gt;Cue in Beyonce’s song “Sweet Dreams” (http://youtu.be/JlxByc0-V40) because I’m dreaming about my code. Just recently (as in last night), I found myself recovering from downing too many shots and waking up thinking about an app that I created in class. I realized that I didn’t write anything to validate the user’s input. Woops… Another thing to do over the long weekend.&lt;/p&gt;
+
+&lt;h4 id=&quot;re-re-cap-of-last-week&quot;&gt;Re-Re-Cap of Last Week&lt;/h4&gt;
+&lt;p&gt;I forgot to mention all of the embarrassing things that happened to me during the first week. On the first day of class I ran straight into the glass door. Luckily, the door opens both ways so it wasn’t a horrible scene. Then, two days later, I spilled a cup of coffee all over the table. It was a hot mess!&lt;/p&gt;
+
+&lt;h4 id=&quot;projects&quot;&gt;Projects&lt;/h4&gt;
+&lt;p&gt;The first week was all about reviewing and reacquainting the students with languages. We created games that were played in the terminal, but the second week was the fun stuff. We began using Sinatra to put our projects into the browser. This new stage was a punch in my face because I realized that I’m stuck in the 90’s when it comes to designing with tables. What can I say? I love tables and all things square.&lt;/p&gt;
+
+&lt;p&gt;What I enjoy about this program is the progression of the projects. We initially started out creating interactive projects with Ruby in the terminal (via pry and irb). Then, we learned how to display it within our browser via Sinatra. Once we had a handle on that, we began to incorporate APIs and Json with our Ruby and Sinatra web app. A few days later, we’d redo one of our initial projects in Javascipt, jQuery, and Ajax.&lt;/p&gt;
+
+&lt;p&gt;Now, I enjoy the progression (so far), but it is by no means easy for me. I’ve spent many days in the last 2.5 weeks not sleeping, and if I was sleeping I would be dreaming.&lt;/p&gt;
+</description>
+                <link>http://mcsuth.github.io/2013/09/30/week-2-general-assembly--wdi-sf</link>
+                <guid>http://mcsuth.github.io/2013/09/30/week-2-general-assembly--wdi-sf</guid>
+                <pubDate>2013-09-30T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
                 <title>Week 1: General Assembly WDI SF</title>
                 <description>
 &lt;p&gt;I just completed my first week of General Assembly’s Web Development Immersive program and I feel like I’ve been sitting with my classmates for months! Where to start?&lt;/p&gt;
 
-&lt;h5 id=&quot;about-general-assembly-wdi&quot;&gt;About General Assembly WDI&lt;/h5&gt;
+&lt;h4 id=&quot;about-general-assembly-wdi&quot;&gt;About General Assembly WDI&lt;/h4&gt;
 
 &lt;p&gt;General Assembly’s Web Development Immersive (“WDI”) program is a 3-month coding program. One learns Ruby, Ruby on Rails, Sinatra, JavaScript, HTML5, CSS3, JSON, and some more stuff that involves to many acronyms and numbers that I don’t remember.&lt;/p&gt;
 
-&lt;h5 id=&quot;pre-work&quot;&gt;Pre-Work&lt;/h5&gt;
+&lt;h4 id=&quot;pre-work&quot;&gt;Pre-Work&lt;/h4&gt;
 
 &lt;p&gt;Before starting the program I had to complete some pre-work on Ruby, Git, HTML, and CSS. The HTML and CSS were great to refresh because I haven’t touched those things is years! Git was completely foreign to me, and Ruby was similar to JavaScript in terms of its functions/methods and classes.&lt;/p&gt;
 
-&lt;h5 id=&quot;week-1&quot;&gt;Week 1&lt;/h5&gt;
+&lt;h4 id=&quot;week-1&quot;&gt;Week 1&lt;/h4&gt;
 
 &lt;p&gt;My first week was very interesting. After being out of college for a year and not doing anything remotely similar to coding/programming in years it was a very difficult transition for me to plummet into the program.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Terminal and GitHub:&lt;/strong&gt; On the first day we went over some basic terminal and git commands. Learning how to navigate through the terminal was a bit scary for me. The laptop that I use isn’t mine so I was thoroughly irked out with using the terminal to create and delete things. GitHub was also very alien to me. I have never used GitHub for anything in my entire life! The concept of having to work locally, then adding/commiting/pushing my local files to a repository (“reopo”), and the  requesting for a pull for my instructors to merge my files in my repo to theirs’ was interesting to grasp at first. However, after using the terminal and GitHub for a good solid 3.75 days… I became completely comfortable with the terminal and I can sort of say that I GET GIT (I think)! On Friday (9/27) I was able to help my classmates with their Git problems! Am I a Git pro now? Just kidding.&lt;/p&gt;
+&lt;h4 id=&quot;terminal-and-github&quot;&gt;Terminal and GitHub&lt;/h4&gt;
+&lt;p&gt;On the first day we went over some basic terminal and git commands. Learning how to navigate through the terminal was a bit scary for me. The laptop that I use isn’t mine so I was thoroughly irked out with using the terminal to create and delete things. GitHub was also very alien to me. I have never used GitHub for anything in my entire life! The concept of having to work locally, then adding/commiting/pushing my local files to a repository (“reopo”), and the  requesting for a pull for my instructors to merge my files in my repo to theirs’ was interesting to grasp at first. However, after using the terminal and GitHub for a good solid 3.75 days… I became completely comfortable with the terminal and I can sort of say that I GET GIT (I think)! On Friday (9/27) I was able to help my classmates with their Git problems! Am I a Git pro now? Just kidding.&lt;/p&gt;
 
 &lt;p&gt;An important command that really helped me out was: &lt;/p&gt;
 
@@ -111,10 +128,10 @@ factorial(5) // 120
 
 &lt;p&gt;One of the silliest problems that I have with Git is the over creation of &lt;strong&gt;.ds&lt;/strong&gt; files in my repo. Using the above removes all &lt;strong&gt;.ds&lt;/strong&gt; files so I can properly add, commit, and push my new files.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Ruby:&lt;/strong&gt; As I mentioned previously, I’ve never seen, touched, or tasted Ruby… ever. The only exposure that I had with the language was with the pre-work. When we reviewed some basics on the first day I was like: Yeah, my life is nice and randy dandy. However, when we began to work on methods/functions and it’s scoping properties, I felt so silly. I felt like I was a second year Spanish student amongst people who’ve lived in Spain for 6 months and is now fluent. I also realized that I don’t think like a coder yet. When I approach a project, I think backwards. I’m not quite sure if that’s good, but I tend to get really stuck on a solution because I tend to over think about how the outcome should be.&lt;/p&gt;
+&lt;h4 id=&quot;ruby&quot;&gt;Ruby&lt;/h4&gt;
+&lt;p&gt;As I mentioned previously, I’ve never seen, touched, or tasted Ruby… ever. The only exposure that I had with the language was with the pre-work. When we reviewed some basics on the first day I was like: Yeah, my life is nice and randy dandy. However, when we began to work on methods/functions and it’s scoping properties, I felt so silly. I felt like I was a second year Spanish student amongst people who’ve lived in Spain for 6 months and is now fluent. I also realized that I don’t think like a coder yet. When I approach a project, I think backwards. I’m not quite sure if that’s good, but I tend to get really stuck on a solution because I tend to over think about how the outcome should be.&lt;/p&gt;
 
-&lt;h5 id=&quot;week-1-weekend&quot;&gt;Week 1 Weekend&lt;/h5&gt;
-
+&lt;h4 id=&quot;week-1-weekend&quot;&gt;Week 1 Weekend&lt;/h4&gt;
 &lt;p&gt;On Saturday I headed over to class for a review session. I ended up sitting with a few of my classmates in a separate lab space to work on my own project. The hardest part about learning something on my own is focusing at one thing at a time. I’m the type of person who is like: Ok, I just learned something. Give me some time for me to play with it. Wait, something new? Hold on. I want to learn the new thing now!… I think I just get way to excited.&lt;/p&gt;
 </description>
                 <link>http://mcsuth.github.io/2013/09/29/week-1-general-assembly---wdi-sf</link>
