@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-10-02T07:52:40-07:00</updated>
+ <updated>2014-10-02T07:57:33-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -73,12 +73,18 @@ factorial(5) // 120
    <updated>2013-10-15T00:00:00-07:00</updated>
    <id>http://mcsuth.github.io/2013/10/15/week-3-general-assembly--wdi-sf-the-long-weekend</id>
    <content type="html">
-&lt;p&gt;Week three was all about databases and Ruby on Rails. We delved into Rails after creating apps with Sinatra, and I’d have to say that Sinatra is extremely light in comparison to Rails. The process of generating your model(s) and your controller(s) with Rails is like magic. However, keeping track of what’s going on in each .rb and .html.erb file is pretty insane. One of the labs we had was to re-create &lt;a title=&quot;Bit.ly&quot; href=&quot;https://bitly.com/&quot;&gt;Bitly&lt;/a&gt;. We were told to approach the project via &lt;a href=&quot;http://en.wikipedia.org/wiki/Representational_state_transfer&quot;&gt;RESTful&lt;/a&gt; routing and so I jangled my way up to the point where I had no idea how to route my new url to the specified website.&lt;/p&gt;
+&lt;h4 id=&quot;the-week&quot;&gt;The Week&lt;/h4&gt;
+&lt;p&gt;Week three was all about databases and Ruby on Rails. We delved into Rails after creating apps with Sinatra, and I’d have to say that Sinatra is extremely light in comparison to Rails. The process of generating your model(s) and your controller(s) with Rails is like magic. However, keeping track of what’s going on in each .rb and .html.erb file is pretty insane. One of the labs we had was to re-create &lt;a href=&quot;https://bitly.com/&quot;&gt;Bitly&lt;/a&gt;. We were told to approach the project via &lt;a href=&quot;http://en.wikipedia.org/wiki/Representational_state_transfer&quot;&gt;RESTful&lt;/a&gt; routing and so I jangled my way up to the point where I had no idea how to route my new url to the specified website.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://mcsuth.files.wordpress.com/2013/10/screen-shot-2013-10-14-at-12-13-02-pm.png&quot;&gt;&lt;img class=&quot;size-medium wp-image-326 aligncenter&quot; alt=&quot;Screen Shot 2013-10-14 at 12.13.02 PM&quot; src=&quot;http://mcsuth.files.wordpress.com/2013/10/screen-shot-2013-10-14-at-12-13-02-pm.png?w=300&quot; width=&quot;300&quot; height=&quot;148&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;center style=&quot;margin: 20px 0 20px 0&quot;&gt;
+  &lt;a href=&quot;http://mcsuth.files.wordpress.com/2013/10/screen-shot-2013-10-14-at-12-13-02-pm.png&quot;&gt;
+    &lt;img class=&quot;size-medium wp-image-326 aligncenter&quot; alt=&quot;Screen Shot 2013-10-14 at 12.13.02 PM&quot; src=&quot;http://mcsuth.files.wordpress.com/2013/10/screen-shot-2013-10-14-at-12-13-02-pm.png?w=300&quot; width=&quot;300&quot; height=&quot;148&quot; /&gt;
+  &lt;/a&gt;
+&lt;/center&gt;
 
 &lt;p&gt;And oh, the power of C.R.A.P (Contrast, Repetition, Alignment, Proximity) design. After three weeks, I’ve noticed that my front-end designing revolves heavily on centering. :-P&lt;/p&gt;
 
+&lt;h4 id=&quot;the-weekend&quot;&gt;The Weekend&lt;/h4&gt;
 &lt;p&gt;On a more restful note, I went to the Twin Peaks, theGolden Gate Park, and the beach on Saturday. I walked along the coast and ventured onto a tiny trail around the beach. After coding all day on Sunday, I went to &lt;a href=&quot;http://eltechosf.com/&quot;&gt;El Techo de Lolinda&lt;/a&gt; in the Mission, followed by movies at the Sundance Kabuki cinema.&lt;/p&gt;
 </content>
  </entry>
