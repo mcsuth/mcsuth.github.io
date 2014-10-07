@@ -5,10 +5,19 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-10-02T08:13:34-07:00</lastBuildDate>
-        <pubDate>2014-10-02T08:13:34-07:00</pubDate>
+        <lastBuildDate>2014-10-06T19:27:49-07:00</lastBuildDate>
+        <pubDate>2014-10-06T19:27:49-07:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>new post</title>
+                <description>
+</description>
+                <link>http://mcsuth.github.io/2014/10/06/new-post</link>
+                <guid>http://mcsuth.github.io/2014/10/06/new-post</guid>
+                <pubDate>2014-10-06T00:00:00-07:00</pubDate>
+        </item>
 
         <item>
                 <title>First Jekyll Post</title>
@@ -85,6 +94,15 @@ factorial(5) // 120
                 <link>http://mcsuth.github.io/2013/10/15/week-3-general-assembly--wdi-sf-the-long-weekend</link>
                 <guid>http://mcsuth.github.io/2013/10/15/week-3-general-assembly--wdi-sf-the-long-weekend</guid>
                 <pubDate>2013-10-15T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Week 2.25: General Assembly – WDI SF</title>
+                <description>
+</description>
+                <link>http://mcsuth.github.io/2013/10/10/week-225-general-assembly--wdi-sf</link>
+                <guid>http://mcsuth.github.io/2013/10/10/week-225-general-assembly--wdi-sf</guid>
+                <pubDate>2013-10-10T00:00:00-07:00</pubDate>
         </item>
 
         <item>
