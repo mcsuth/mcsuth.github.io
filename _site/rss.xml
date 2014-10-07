@@ -5,19 +5,10 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-10-06T19:27:49-07:00</lastBuildDate>
-        <pubDate>2014-10-06T19:27:49-07:00</pubDate>
+        <lastBuildDate>2014-10-06T19:28:56-07:00</lastBuildDate>
+        <pubDate>2014-10-06T19:28:56-07:00</pubDate>
         <ttl>1800</ttl>
 
-
-        <item>
-                <title>new post</title>
-                <description>
-</description>
-                <link>http://mcsuth.github.io/2014/10/06/new-post</link>
-                <guid>http://mcsuth.github.io/2014/10/06/new-post</guid>
-                <pubDate>2014-10-06T00:00:00-07:00</pubDate>
-        </item>
 
         <item>
                 <title>First Jekyll Post</title>
@@ -99,6 +90,9 @@ factorial(5) // 120
         <item>
                 <title>Week 2.25: General Assembly – WDI SF</title>
                 <description>
+&lt;p&gt;On Tuesday I created a “To Do List” web application. I designed it such that it is responsive to the size of the screen that the application is in. The app was called “Operation Get Shit Done”. It was built via HTML5, CSS3, Javascript, jQuery, and Sinatra. When you add items in the input then entry will add to the “Operation Get Shit Done” list. Once you check off the checkbox the item will fadeOut and fadeIn under the “You Done With This Shit” list.&lt;/p&gt;
+
+&lt;p&gt;How ironic was is to create a “To Do List” app because I have no many things that I want to refactor.&lt;/p&gt;
 </description>
                 <link>http://mcsuth.github.io/2013/10/10/week-225-general-assembly--wdi-sf</link>
                 <guid>http://mcsuth.github.io/2013/10/10/week-225-general-assembly--wdi-sf</guid>
