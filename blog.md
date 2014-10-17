@@ -12,6 +12,7 @@ tagline: Jr Front-End Developer
       <!-- <p>{{ post.content | strip_html | truncatewords:20}}</p> -->
       <p class="">{{ post.content }}</p>
 
+
       <!-- TAGS AND CATEGORIES -->
       <!-- {% unless post.tags == empty %}
         <div class="tag_box inline">
@@ -31,6 +32,7 @@ tagline: Jr Front-End Developer
 
     <!-- </li> -->
   {% endfor %}
+
 
   <hr>
   <pre>

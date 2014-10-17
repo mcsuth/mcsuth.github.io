@@ -32,12 +32,15 @@ tagline: Jr Front-End Developer
     <!-- </li> -->
   {% endfor %}
 
+
   <hr>
+  {% for post in site.posts%}
+
     <ul class="pagination">
     {% if page.previous %}
       <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
     {% else %}
-      <li class="prev disabled"><a>&larr; Previous</a></li>
+      <li class="previous disabled"><a>&larr; Previous</a></li>
     {% endif %}
       <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
     {% if page.next %}
@@ -46,6 +49,7 @@ tagline: Jr Front-End Developer
       <li class="next disabled"><a>Next &rarr;</a>
     {% endif %}
     </ul>
+  {% endfor %}
   <hr>
 
 <!-- USE THIS TO HIGHLIGHT CODE -->
