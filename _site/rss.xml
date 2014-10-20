@@ -5,8 +5,8 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-10-20T07:39:52-07:00</lastBuildDate>
-        <pubDate>2014-10-20T07:39:52-07:00</pubDate>
+        <lastBuildDate>2014-10-20T07:42:44-07:00</lastBuildDate>
+        <pubDate>2014-10-20T07:42:44-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -63,6 +63,15 @@ factorial(5) // 120
                 <link>http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials</link>
                 <guid>http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials</guid>
                 <pubDate>2013-12-13T00:00:00-08:00</pubDate>
+        </item>
+
+        <item>
+                <title>Week 5: General Assembly – WDI SF</title>
+                <description>
+</description>
+                <link>http://mcsuth.github.io/2013/11/01/week-5-general-assembly--wdi-sf</link>
+                <guid>http://mcsuth.github.io/2013/11/01/week-5-general-assembly--wdi-sf</guid>
+                <pubDate>2013-11-01T00:00:00-07:00</pubDate>
         </item>
 
         <item>

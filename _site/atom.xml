@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-10-20T07:39:52-07:00</updated>
+ <updated>2014-10-20T07:42:44-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -64,6 +64,15 @@ end
 
 factorial(5) // 120
 &lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Week 5: General Assembly – WDI SF</title>
+   <link href="http://mcsuth.github.io/2013/11/01/week-5-general-assembly--wdi-sf"/>
+   <updated>2013-11-01T00:00:00-07:00</updated>
+   <id>http://mcsuth.github.io/2013/11/01/week-5-general-assembly--wdi-sf</id>
+   <content type="html">
 </content>
  </entry>
  
