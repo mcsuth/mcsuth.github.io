@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-10-22T07:44:03-07:00</updated>
+ <updated>2014-10-22T07:44:51-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -114,9 +114,7 @@ factorial(5) // 120
 
 &lt;p&gt;The day before the presentation I styled my project a few times. Broke my stuff. Put it up on Heroku.&lt;/p&gt;
 
-&lt;h4 id=&quot;friday&quot;&gt;Friday&lt;/h4&gt;
-
-&lt;h4 id=&quot;presentation-day&quot;&gt;Presentation day!:&lt;/h4&gt;
+&lt;h4 id=&quot;friday---presentation-day&quot;&gt;Friday - Presentation day!:&lt;/h4&gt;
 &lt;p&gt;Wow, I was blown away by all the amazing projects! After presentations our instructors presented us with a General Assembly book-bag and shots of tequila, whiskey, and champagne. This was followed by  a few hours of bowling with food and more beer.&lt;/p&gt;
 
 &lt;p&gt;[gallery type=”square” ids=”369,370,372”]&lt;/p&gt;

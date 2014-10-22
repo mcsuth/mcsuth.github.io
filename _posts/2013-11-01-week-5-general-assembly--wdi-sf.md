@@ -46,9 +46,7 @@ On Wednesday, I worked on creating another model to allow users to save symbols.
 
 The day before the presentation I styled my project a few times. Broke my stuff. Put it up on Heroku.
 
-#### Friday
-
-#### Presentation day!:
+#### Friday - Presentation day!:
 Wow, I was blown away by all the amazing projects! After presentations our instructors presented us with a General Assembly book-bag and shots of tequila, whiskey, and champagne. This was followed by  a few hours of bowling with food and more beer.
 
 [gallery type="square" ids="369,370,372"]
