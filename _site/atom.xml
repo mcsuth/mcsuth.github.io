@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-10-20T07:43:25-07:00</updated>
+ <updated>2014-10-22T07:44:03-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -75,46 +75,49 @@ factorial(5) // 120
    <content type="html">
 &lt;p&gt;I definitely dropped the ball last weekend and forgot to write a blog post about my first project.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Project #1&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
+&lt;h4 id=&quot;project-1&quot;&gt;Project #1&lt;/h4&gt;
+
+&lt;ol&gt;
   &lt;li&gt;Solo Ruby on Rails project&lt;/li&gt;
   &lt;li&gt;Used APIs and Gems&lt;/li&gt;
   &lt;li&gt;Created multiple/associated models&lt;/li&gt;
   &lt;li&gt;Incorporated user authentication&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Website: &lt;a title=&quot;Current Confidence&quot; href=&quot;http://sentivestor.herokuapp.com&quot;&gt;sentivestor.herokuapp.com&lt;/a&gt;&lt;/p&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Website: &lt;a href=&quot;http://sentivestor.herokuapp.com&quot;&gt;sentivestor.herokuapp.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;[gallery type=”square” ids=”364,366,365”]&lt;/p&gt;
 
 &lt;p&gt;My first project revolved around the notion of Behavioral Economics/Finance. Initially, I wanted to create a web application that allowed users to have free range of the website, search for a stock symbol, and then see a breakdown of recent tweets and its sentiment analysis. In addition to the sentiment analysis, I wanted users to be able to view the geographical location of the tweets. If I created this web application I would have had to only use 2-3 APIs (one for “grabbing” the tweets, one to perform sentiment analysis on the tweet, and another to use a map) and JavaScript to render the sentiment charts and map. This didn’t pan out exactly the way I wanted it to.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Saturday:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;saturday&quot;&gt;Saturday&lt;/h4&gt;
 
 &lt;p&gt;I devoted a few hours on Saturday to outline my schema and conceptualize the layout of the application.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Sunday:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;sunday&quot;&gt;Sunday&lt;/h4&gt;
 
 &lt;p&gt;On Sunday, I spent a few hours collecting all the APIs/Gems I would/might use, read documentation, and atempted to get the Twitter API to work. Unfortunately, I freaked out real fast after I reached the Twitter API request limit and stopped all work. This happened after I requested to retrieve all Tweets that contained @AAPL…&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Monday:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;monday&quot;&gt;Monday&lt;/h4&gt;
 
 &lt;p&gt;By the end of the day on Monday I was able to successfully request from my APIs and they were fully functional. I learned that the Twitter API does not provide geolocation. So my idea of displaying a may to view sentiment trends was out of the window.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Tuesday:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;tuesday&quot;&gt;Tuesday&lt;/h4&gt;
 
 &lt;p&gt;Since my idea of including a map was out, my instructor suggested that I create user authentication and then allow users to save symbols for future viewing. So, I created a User model to have a log-in/sign-up feature. For some odd reason it took me 4-5 tries to get the user authentication to work so it took me the whole day to do it.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Wednesday:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;wednesday&quot;&gt;Wednesday&lt;/h4&gt;
 
 &lt;p&gt;On Wednesday, I worked on creating another model to allow users to save symbols. This functionality took me a longer time to do as well.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Thursday:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;thursday&quot;&gt;Thursday&lt;/h4&gt;
 
 &lt;p&gt;The day before the presentation I styled my project a few times. Broke my stuff. Put it up on Heroku.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Friday:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;friday&quot;&gt;Friday&lt;/h4&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;Presentation day! Wow, I was blown away by all the amazing projects! After presentations our instructors presented us with a General Assembly book-bag and shots of tequila, whiskey, and champagne. This was followed by  a few hours of bowling with food and more beer.&lt;/p&gt;
+&lt;h4 id=&quot;presentation-day&quot;&gt;Presentation day!:&lt;/h4&gt;
+&lt;p&gt;Wow, I was blown away by all the amazing projects! After presentations our instructors presented us with a General Assembly book-bag and shots of tequila, whiskey, and champagne. This was followed by  a few hours of bowling with food and more beer.&lt;/p&gt;
 
 &lt;p&gt;[gallery type=”square” ids=”369,370,372”]&lt;/p&gt;
 </content>
