@@ -9,6 +9,8 @@ http://mcsuth.github.io/rss.xml
 http://mcsuth.github.io/sitemap.txt
 http://mcsuth.github.io/tags.html
 
+http://mcsuth.github.io/life/reflections/2014/10/22/strangular-angular
+http://mcsuth.github.io/2014/10/22/new-post
 http://mcsuth.github.io/2014/09/04/hola-world
 http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials
 http://mcsuth.github.io/2013/11/01/week-5-general-assembly--wdi-sf

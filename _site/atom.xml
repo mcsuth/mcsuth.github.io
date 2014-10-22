@@ -4,13 +4,39 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-10-22T07:44:51-07:00</updated>
+ <updated>2014-10-22T08:06:41-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
    <email>seimith@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Strangular Angular</title>
+   <link href="http://mcsuth.github.io/life/reflections/2014/10/22/strangular-angular"/>
+   <updated>2014-10-22T00:00:00-07:00</updated>
+   <id>http://mcsuth.github.io/life/reflections/2014/10/22/strangular-angular</id>
+   <content type="html">
+&lt;p&gt;It’s been a while since I’ve looked at my Ruby on Rails apps and wow, I hardly remember a thing. Thinking back at how it all began is rather funny. Till this day I’d have to say that I still don’t know what I’m doing, but I’m more comfortable with that. &lt;/p&gt;
+
+&lt;p&gt;I’ve been working for less than a year as a developer after three months of informal training and dicking around with the console and I’m slowly coming to terms that I’m never going to know everything. Everyday somebody is going to create a new framework or library and things so out of style. &lt;/p&gt;
+
+&lt;p&gt;That being said, I’ve been thinking about redoing my Ruby on Rails in Angular. &lt;/p&gt;
+
+&lt;p&gt;As much as I enjoy Angular, I’m still having pains from it.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>new post</title>
+   <link href="http://mcsuth.github.io/2014/10/22/new-post"/>
+   <updated>2014-10-22T00:00:00-07:00</updated>
+   <id>http://mcsuth.github.io/2014/10/22/new-post</id>
+   <content type="html">
+</content>
+ </entry>
  
  <entry>
    <title>First Jekyll Post</title>
