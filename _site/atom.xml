@@ -4,7 +4,7 @@
  <title>Smith Suth</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-10-23T19:19:37-07:00</updated>
+ <updated>2014-10-28T21:41:59-07:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -26,15 +26,6 @@
 
 &lt;p&gt;As much as I enjoy Angular, I’m still having pains from it.&lt;/p&gt;
 
-</content>
- </entry>
- 
- <entry>
-   <title>new post</title>
-   <link href="http://mcsuth.github.io/2014/10/22/new-post"/>
-   <updated>2014-10-22T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2014/10/22/new-post</id>
-   <content type="html">
 </content>
  </entry>
  
@@ -576,7 +567,8 @@ function myFunction(input) {
 console.log (myFunction(myString));
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;em&gt;Explanation&lt;/em&gt;: You cannot simply reverse a string by implementing the &lt;strong&gt;reverse()&lt;/strong&gt; method as if it were an array. You must split each letter and space in the string such that they become separate elements, then you can reverse each element, and finally you can join the elements to form a new string.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Explanation&amp;lt;&lt;/em&gt;&lt;/strong&gt; &lt;br /&gt;
+You cannot simply reverse a string by implementing the &lt;strong&gt;reverse()&lt;/strong&gt;* method as if it were an array. You can split each letter and space in the string such that they become separate elements, then you can reverse each element, and finally you can join the elements to form a new string.&lt;/p&gt;
 </content>
  </entry>
  

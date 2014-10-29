@@ -2,6 +2,9 @@
 <html>
 <head>
   <title>Seimith . </title>
+  <!-- JQUERY -->
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
   <!-- GOOGLE FONT -->
   <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <!-- BOOTSTRAP CSS -->
@@ -10,16 +13,29 @@
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <!-- CUSTOM CSS -->
   <link href="newversion.css" rel="stylesheet">
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.projects').hide();
+      $('.projectslink').on('click', function() {
+        $('.info').hide();
+        $('.projects').fadeIn(300);
+      })
+      $('.home').on('click', function() {
+        $('.info').fadeIn(300);
+        $('.projects').hide();
+      })
+    })
+  </script>
 </head>
 <body>
   <div class="col-md-6 col-md-offset-1">
 
     <header>
-      <h1><a class="home">Seimith Suth.</a></h1>
+      <h1 class="home">Seimith Suth.</h1>
       <ul> 
         <li><a class="projectslink">Projects</a></li>
         <li><a class="gitlink">Github</a></li>
-        <li><a href="/blog/" target="_blank">Blog</a></li>
+        <li><a href="/blog/" target="_self">Blog</a></li>
       </ul>
       <div class="info">
         <p>

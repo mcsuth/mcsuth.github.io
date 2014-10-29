@@ -5,8 +5,8 @@
         <description>Smith Suth - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-10-23T19:19:37-07:00</lastBuildDate>
-        <pubDate>2014-10-23T19:19:37-07:00</pubDate>
+        <lastBuildDate>2014-10-28T21:41:59-07:00</lastBuildDate>
+        <pubDate>2014-10-28T21:41:59-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -24,15 +24,6 @@
 </description>
                 <link>http://mcsuth.github.io/life/reflections/2014/10/22/strangular-angular</link>
                 <guid>http://mcsuth.github.io/life/reflections/2014/10/22/strangular-angular</guid>
-                <pubDate>2014-10-22T00:00:00-07:00</pubDate>
-        </item>
-
-        <item>
-                <title>new post</title>
-                <description>
-</description>
-                <link>http://mcsuth.github.io/2014/10/22/new-post</link>
-                <guid>http://mcsuth.github.io/2014/10/22/new-post</guid>
                 <pubDate>2014-10-22T00:00:00-07:00</pubDate>
         </item>
 
@@ -571,7 +562,8 @@ function myFunction(input) {
 console.log (myFunction(myString));
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;em&gt;Explanation&lt;/em&gt;: You cannot simply reverse a string by implementing the &lt;strong&gt;reverse()&lt;/strong&gt; method as if it were an array. You must split each letter and space in the string such that they become separate elements, then you can reverse each element, and finally you can join the elements to form a new string.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Explanation&amp;lt;&lt;/em&gt;&lt;/strong&gt; &lt;br /&gt;
+You cannot simply reverse a string by implementing the &lt;strong&gt;reverse()&lt;/strong&gt;* method as if it were an array. You can split each letter and space in the string such that they become separate elements, then you can reverse each element, and finally you can join the elements to form a new string.&lt;/p&gt;
 </description>
                 <link>http://mcsuth.github.io/2013/08/13/first-reverse</link>
                 <guid>http://mcsuth.github.io/2013/08/13/first-reverse</guid>
