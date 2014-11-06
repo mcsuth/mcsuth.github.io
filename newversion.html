@@ -15,6 +15,15 @@
   <link href="newversion.css" rel="stylesheet">
   <script type="text/javascript">
     $(document).ready(function() {
+      var item = $('#logo');
+      var body = $(document.body);
+      var bodyHeight = body.height();
+
+      $(window).scroll(function () {
+          item.css({
+              'transform': 'rotate(' + (body.scrollTop() / bodyHeight * 3) + 'deg)'
+          });
+      });
       $('.projects').hide();
       $('.projectslink').on('click', function() {
         $('.info').hide();
@@ -28,15 +37,16 @@
   </script>
 </head>
 <body>
-  <div class="col-md-6 col-md-offset-1">
+  <div class="col-md-5 col-md-offset-1">
 
     <div class="page-header">
-      <h1 class="home">Smith's Portfolio</h1>
+      <h1 class="home">Seimith's Portfolio</h1>
       <ul> 
         <li><a class="projectslink">Projects</a></li>
         <li><a class="gitlink">Github</a></li>
         <li><a href="/blog/" target="_self">Blog</a></li>
       </ul>
+      <div id="logo"><img src="homepage/hanuman.svg" class="logo"></div>
       <div class="info">
         <p>
           Hola! My name is Seimith (sā · miTH). I'm a front-end web developer looking for a full-time position with great people in the Bay area!
