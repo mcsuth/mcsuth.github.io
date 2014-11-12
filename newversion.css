@@ -62,3 +62,37 @@ img.proj:hover {
 .general {
   margin: 0 0 50px 0;
 }
+@media (max-width: 1024px) {
+  body {
+    margin: 40px;
+  }
+  .links {
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .projects {
+    text-align: center;
+  }
+  #logo {
+    position: fixed;
+    bottom: -330px;
+    right: -170px;
+  }
+  img.logo {
+    display: none;
+  }
+  img.smalllogo {
+    /*display: none;*/
+    width: 800px;
+    height: 800px;
+  }
+  header > h1, header > h2 {
+    display: none;
+  }
+  div#smalllogo > center > h1 {
+    border: 0px;
+    font-size: 50px
+  }
+}
