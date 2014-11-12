@@ -8,7 +8,6 @@ $(document).ready(function() {
           'transform': 'rotate(' + (body.scrollTop() / bodyHeight * 3) + 'deg)'
       });
   });
-  $('.projects').hide();
   $('.projectslink').on('click', function() {
     $('.info').hide();
     $('.projects').fadeIn(300);
@@ -16,5 +15,25 @@ $(document).ready(function() {
   $('.home').on('click', function() {
     $('.info').fadeIn(300);
     $('.projects').hide();
+  });
+  $('.sentivestorinfo').hide();
+  $('img.senti').on('click', function() {
+    $('.sentivestorinfo').slideToggle();
+  })
+  $('.chartifyinfo').hide();
+  $('img.chart').on('click', function() {
+    $('.chartifyinfo').slideToggle();
+  })
+  $('.moviepop').hide();
+  $('img.movie').on('click', function() {
+    $('.moviepop').slideToggle();
+  })
+  $('.alertminow').hide();
+  $('img.alert').on('click', function() {
+    $('.alertminow').slideToggle();
+  })
+  $('.generalassembly').hide();
+  $('img.general').on('click', function() {
+    $('.generalassembly').slideToggle();
   })
 });
