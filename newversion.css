@@ -9,6 +9,9 @@ h1, h2 {
   font-family: 'Lato', sans-serif !important;
   /*font-weight: 300 !important;*/
 }
+header > h1 {
+  border: 0px;
+}
 h1 {
   border-top: 1px dashed #CCC;
   padding: 20px 0 15px 0;
@@ -39,6 +42,9 @@ a, a:hover {
   position: fixed;
   bottom: -330px;
   right: -170px;
+}
+div#smalllogo {
+  display: none;
 }
 img.logo {
   width: 120%;
@@ -83,10 +89,13 @@ img.proj:hover {
   img.logo {
     display: none;
   }
+  div#smalllogo {
+    display: inline-block;
+  }
   img.smalllogo {
     /*display: none;*/
-    width: 800px;
-    height: 800px;
+    width: 50%;
+    height: 50%;
   }
   header > h1, header > h2 {
     display: none;
