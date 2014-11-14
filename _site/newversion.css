@@ -23,6 +23,11 @@ p {
   font-family: 'Lato', sans-serif !important;
   font-size: 15px;
   margin: 30px;
+  text-align: left;
+}
+img.mainlogo {
+  width: 80%;
+  height: 80%;
 }
 .info > p {
   margin-bottom: 40px;
@@ -39,9 +44,9 @@ a, a:hover {
   cursor: pointer;
 }
 #logo {
-  position: fixed;
-  bottom: -330px;
-  right: -170px;
+  display: none;
+  /*bottom: -330px;
+  right: -170px;*/
 }
 div#smalllogo {
   display: none;
@@ -49,6 +54,8 @@ div#smalllogo {
 img.logo {
   width: 120%;
   height: 120%;
+  opacity: 0.1;
+  margin: -30px 0 0 -100px;
 }
 img.proj {
   opacity: 0.75;
@@ -64,16 +71,20 @@ img.proj:hover {
   padding: 20px;
   border-top: 1px dashed #CCC;
   margin: 30px 0 0 0;
+  font-size: 20px;
 }
 .general {
   margin: 0 0 50px 0;
 }
+.projects {
+   text-align: center;
+ }
 @media (max-width: 1024px) {
   body {
     margin: 40px;
   }
   .links {
-    font-size: 50px;
+    font-size: 30px;
   }
   p {
     font-size: 20px;
@@ -82,26 +93,18 @@ img.proj:hover {
     text-align: center;
   }
   #logo {
-    position: fixed;
-    bottom: -330px;
-    right: -170px;
+    /*display: none;*/
   }
   img.logo {
-    display: none;
+    width: 250%;
+    height: auto;
+    margin: -55px;
   }
-  div#smalllogo {
-    display: inline-block;
-  }
-  img.smalllogo {
+  img.mainlogo {
     /*display: none;*/
-    width: 50%;
-    height: 50%;
   }
   header > h1, header > h2 {
-    display: none;
+    /*display: none;*/
   }
-  div#smalllogo > center > h1 {
-    border: 0px;
-    font-size: 50px
-  }
+
 }
