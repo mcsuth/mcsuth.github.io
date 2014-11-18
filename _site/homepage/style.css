@@ -1,6 +1,7 @@
 body {
-  height: 500px;
   font-family: 'Lato', sans-serif !important;
+  line-height: 40px;
+  font-size: 20px;
 }
 header {
   margin: 50px 20px;
