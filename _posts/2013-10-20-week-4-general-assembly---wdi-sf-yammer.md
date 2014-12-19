@@ -2,7 +2,7 @@
 layout: post
 title: "Week 4: General Assembly   WDI SF (Yammer)"
 description: ""
-category: 
+category: ['General Assembly']
 tags: []
 ---
 {% include JB/setup %}

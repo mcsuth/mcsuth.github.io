@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Smith Suth
-tagline: Jr Front-End Developer
+title: Seimith Suth
+tagline: Front-End Developer
 ---
 {% include JB/setup %}
 

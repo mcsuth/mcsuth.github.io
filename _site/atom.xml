@@ -4,7 +4,7 @@
  <title>Smith's Blog</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-11-17T20:54:58-08:00</updated>
+ <updated>2014-12-19T09:11:36-08:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -85,10 +85,22 @@ factorial(5) // 120
  </entry>
  
  <entry>
+   <title>Week 6: General Assembly   WDI SF</title>
+   <link href="http://mcsuth.github.io/general%20assembly/2013/11/04/week-6-general-assembly---wdi-sf"/>
+   <updated>2013-11-04T00:00:00-08:00</updated>
+   <id>http://mcsuth.github.io/general%20assembly/2013/11/04/week-6-general-assembly---wdi-sf</id>
+   <content type="html">
+&lt;p&gt;It was Halloween at the office.&lt;/p&gt;
+
+&lt;p&gt;[gallery type=”square” ids=”384,383,382”]&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Week 5: General Assembly – WDI SF</title>
-   <link href="http://mcsuth.github.io/2013/11/01/week-5-general-assembly--wdi-sf"/>
+   <link href="http://mcsuth.github.io/general%20assembly/2013/11/01/week-5-general-assembly--wdi-sf"/>
    <updated>2013-11-01T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2013/11/01/week-5-general-assembly--wdi-sf</id>
+   <id>http://mcsuth.github.io/general%20assembly/2013/11/01/week-5-general-assembly--wdi-sf</id>
    <content type="html">
 &lt;p&gt;I definitely dropped the ball last weekend and forgot to write a blog post about my first project.&lt;/p&gt;
 
@@ -140,9 +152,9 @@ factorial(5) // 120
  
  <entry>
    <title>Week 4: General Assembly   WDI SF (Yammer)</title>
-   <link href="http://mcsuth.github.io/2013/10/20/week-4-general-assembly---wdi-sf-yammer"/>
+   <link href="http://mcsuth.github.io/general%20assembly/2013/10/20/week-4-general-assembly---wdi-sf-yammer"/>
    <updated>2013-10-20T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2013/10/20/week-4-general-assembly---wdi-sf-yammer</id>
+   <id>http://mcsuth.github.io/general%20assembly/2013/10/20/week-4-general-assembly---wdi-sf-yammer</id>
    <content type="html">
 &lt;p&gt;This week was kicked off with a visit to Yammer. Their engineers spoke to us about their backgrounds, how they got into programming, and their day-to-day schedules. It was fantastic to learn that a large percentage of Yammer’s engineers did not come from a traditional Computer Science background. The engineers that we spoke to really emphasized the importance of curiosity, patience, and perseverance when it comes to programming. They were really humble and confessed that even though they all had many years of experience in programming everyday is like a roller coaster - 50% of the time they felt like gods, but the other 50% of the time they felt like idiots.&lt;/p&gt;
 
@@ -160,9 +172,9 @@ factorial(5) // 120
  
  <entry>
    <title>Week 3: General Assembly – WDI SF (The Long Weekend)</title>
-   <link href="http://mcsuth.github.io/2013/10/15/week-3-general-assembly--wdi-sf-the-long-weekend"/>
+   <link href="http://mcsuth.github.io/general%20assembly/2013/10/15/week-3-general-assembly--wdi-sf-the-long-weekend"/>
    <updated>2013-10-15T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2013/10/15/week-3-general-assembly--wdi-sf-the-long-weekend</id>
+   <id>http://mcsuth.github.io/general%20assembly/2013/10/15/week-3-general-assembly--wdi-sf-the-long-weekend</id>
    <content type="html">
 &lt;h4 id=&quot;the-week&quot;&gt;The Week&lt;/h4&gt;
 &lt;p&gt;Week three was all about databases and Ruby on Rails. We delved into Rails after creating apps with Sinatra, and I’d have to say that Sinatra is extremely light in comparison to Rails. The process of generating your model(s) and your controller(s) with Rails is like magic. However, keeping track of what’s going on in each .rb and .html.erb file is pretty insane. One of the labs we had was to re-create &lt;a href=&quot;https://bitly.com/&quot;&gt;Bitly&lt;/a&gt;. We were told to approach the project via &lt;a href=&quot;http://en.wikipedia.org/wiki/Representational_state_transfer&quot;&gt;RESTful&lt;/a&gt; routing and so I jangled my way up to the point where I had no idea how to route my new url to the specified website.&lt;/p&gt;
@@ -182,9 +194,9 @@ factorial(5) // 120
  
  <entry>
    <title>Week 2.25: General Assembly – WDI SF</title>
-   <link href="http://mcsuth.github.io/2013/10/10/week-225-general-assembly--wdi-sf"/>
+   <link href="http://mcsuth.github.io/general%20assembly/2013/10/10/week-225-general-assembly--wdi-sf"/>
    <updated>2013-10-10T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2013/10/10/week-225-general-assembly--wdi-sf</id>
+   <id>http://mcsuth.github.io/general%20assembly/2013/10/10/week-225-general-assembly--wdi-sf</id>
    <content type="html">
 &lt;p&gt;On Tuesday I created a “To Do List” web application. I designed it such that it is responsive to the size of the screen that the application is in. The app was called “Operation Get Shit Done”. It was built via HTML5, CSS3, Javascript, jQuery, and Sinatra. When you add items in the input then entry will add to the “Operation Get Shit Done” list. Once you check off the checkbox the item will fadeOut and fadeIn under the “You Done With This Shit” list.&lt;/p&gt;
 
@@ -194,9 +206,9 @@ factorial(5) // 120
  
  <entry>
    <title>Week 2: General Assembly – WDI SF</title>
-   <link href="http://mcsuth.github.io/2013/09/30/week-2-general-assembly--wdi-sf"/>
+   <link href="http://mcsuth.github.io/general%20assembly/2013/09/30/week-2-general-assembly--wdi-sf"/>
    <updated>2013-09-30T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2013/09/30/week-2-general-assembly--wdi-sf</id>
+   <id>http://mcsuth.github.io/general%20assembly/2013/09/30/week-2-general-assembly--wdi-sf</id>
    <content type="html">
 &lt;p&gt;Cue in Beyonce’s song &lt;a href=&quot;http://youtu.be/JlxByc0-V40&quot;&gt;“Sweet Dreams”&lt;/a&gt; because I’m dreaming about my code. Just recently (as in last night), I found myself recovering from downing too many shots and waking up thinking about an app that I created in class. I realized that I didn’t write anything to validate the user’s input. Woops… Another thing to do over the long weekend.&lt;/p&gt;
 
@@ -214,9 +226,9 @@ factorial(5) // 120
  
  <entry>
    <title>Week 1: General Assembly WDI SF</title>
-   <link href="http://mcsuth.github.io/2013/09/29/week-1-general-assembly---wdi-sf"/>
+   <link href="http://mcsuth.github.io/general%20assembly/2013/09/29/week-1-general-assembly---wdi-sf"/>
    <updated>2013-09-29T00:00:00-07:00</updated>
-   <id>http://mcsuth.github.io/2013/09/29/week-1-general-assembly---wdi-sf</id>
+   <id>http://mcsuth.github.io/general%20assembly/2013/09/29/week-1-general-assembly---wdi-sf</id>
    <content type="html">
 &lt;p&gt;I just completed my first week of General Assembly’s Web Development Immersive program and I feel like I’ve been sitting with my classmates for months! Where to start?&lt;/p&gt;
 
