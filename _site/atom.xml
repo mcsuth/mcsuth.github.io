@@ -4,7 +4,7 @@
  <title>Smith's Blog</title>
  <link href="http://mcsuth.github.io/" rel="self"/>
  <link href="http://mcsuth.github.io"/>
- <updated>2014-12-19T15:49:32-08:00</updated>
+ <updated>2014-12-23T17:19:27-08:00</updated>
  <id>http://mcsuth.github.io</id>
  <author>
    <name>Smith Suth</name>
@@ -81,6 +81,22 @@ end
 
 factorial(5) // 120
 &lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Week 7: General Assembly – WDI SF</title>
+   <link href="http://mcsuth.github.io/general%20assembly/2013/11/10/week-7-general-assembly--wdi-sf"/>
+   <updated>2013-11-10T00:00:00-08:00</updated>
+   <id>http://mcsuth.github.io/general%20assembly/2013/11/10/week-7-general-assembly--wdi-sf</id>
+   <content type="html">
+&lt;p&gt;Its been a week over the halfway mark for the Web Development Immersive program and hell, it’s been a difficult ride for me. Week 6 was a stumbler in the sense that I had a difficult time recovering from the first project. Right after the project the students were firehosed with advanced Single Table Inheritances, polymorphism in associations, Underscore, Lodash, CoffeeScript, more JavaScript, and the beloved Mocha. I swear, I’m not making these names up!&lt;/p&gt;
+
+&lt;p&gt;Week 7 was more relaxed. I’m sure our instructors realized that most of us were burnt out and needed a week full of lab. Reflecting back at week 7, it went by so quickly! We focused on unobtrusive asynchronous JavaScript and turned everything into a “1-page” application. When we did that, I realized that needed to revisit how to create AJAX requests. I would say that I’m quite fine with AJAX requests on separate static pages because I just have to follow the Rails CRUD convention, but I would love to improve my intuition with the code.&lt;/p&gt;
+
+&lt;p&gt;Going forward, we have project numero dos next week (week 8), and it is a group project. More to come about that!&lt;/p&gt;
+
+&lt;p&gt;In the meantime, check out this website: http://unobtrusify.com/&lt;/p&gt;
 </content>
  </entry>
  
