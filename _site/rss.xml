@@ -5,8 +5,8 @@
         <description>Smith's Blog - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-12-23T17:40:28-08:00</lastBuildDate>
-        <pubDate>2014-12-23T17:40:28-08:00</pubDate>
+        <lastBuildDate>2014-12-30T18:53:22-08:00</lastBuildDate>
+        <pubDate>2014-12-30T18:53:22-08:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -80,6 +80,26 @@ factorial(5) // 120
                 <link>http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials</link>
                 <guid>http://mcsuth.github.io/solution/2013/12/13/recursive-ruby---factorials</guid>
                 <pubDate>2013-12-13T00:00:00-08:00</pubDate>
+        </item>
+
+        <item>
+                <title>Week 8: General Assembly – WDI SF</title>
+                <description>
+&lt;p&gt;This week was devoted to project number 2, and this time it was a group effort. We started thinking about our project last week on Friday. However, all of out ideas were conflicting. Somebody wanted to create a task management application, another wanted to create a viral blog-type application, and I wanted to make something that geared towards eliminating homelessness. Unfortunately, my idea wasn’t constructed well enough to win the hearts of my teammates, so we ended up settling on a Facebook analysis/visual representation project.&lt;/p&gt;
+
+&lt;h3 id=&quot;chartifyme&quot;&gt;Chartify.Me&lt;/h3&gt;
+
+&lt;p&gt;The name of our project was “chartify.me”. The imagined flow of our application was to 1) have an individual to go to our website, 2) sign in with Facebook, 3) see Facebook information via charts.js, and 4) compare with friends’ information.&lt;/p&gt;
+
+&lt;p&gt;My contributions to the project were a bit of the front-end, the logic and presentation of the graphs. The most difficult thing about this project was coordinating/allocating who does what.&lt;/p&gt;
+
+&lt;p&gt;On the side note, Gus Fring from Breaking Bad sure liked our web app!!!&lt;/p&gt;
+
+&lt;p&gt;[gallery type=”square” ids=”411,403,402,412”]&lt;/p&gt;
+</description>
+                <link>http://mcsuth.github.io/2013/11/19/week-8-general-assembly--wdi-sf</link>
+                <guid>http://mcsuth.github.io/2013/11/19/week-8-general-assembly--wdi-sf</guid>
+                <pubDate>2013-11-19T00:00:00-08:00</pubDate>
         </item>
 
         <item>
