@@ -5,8 +5,8 @@
         <description>Smith's Blog - Smith Suth</description>
         <link>http://mcsuth.github.io</link>
         <link>http://mcsuth.github.io</link>
-        <lastBuildDate>2014-12-30T18:53:22-08:00</lastBuildDate>
-        <pubDate>2014-12-30T18:53:22-08:00</pubDate>
+        <lastBuildDate>2015-01-19T12:40:48-08:00</lastBuildDate>
+        <pubDate>2015-01-19T12:40:48-08:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -83,6 +83,26 @@ factorial(5) // 120
         </item>
 
         <item>
+                <title>Week 9 - 10: General Assembly – WDI SF</title>
+                <description>
+&lt;p&gt;What a whirlwind of week 9 and 10. Week 9 was mostly about JavaScript and Backbone.js. I ended up focusing on JavaScript because I enjoy front-end work and wished to practice making Ajax requests and making one-page apps. Two end products included a web app that allow users to look up movies and save favorite movies and a simple to-do app.&lt;/p&gt;
+
+&lt;p&gt;http://moviepop.herokuapp.com/ and simple-list.herokuapp.com&lt;/p&gt;
+
+&lt;p&gt;[gallery type=”square” ids=”418,419”]&lt;/p&gt;
+
+&lt;p&gt;The simple apps are both one-page apps, sans the log-in page, which was tricky to make into a one page thing. On a weekend I’d like to pimp these apps out with more functionality, but right now I want to focus on really understanding and internalizing the languages.&lt;/p&gt;
+
+&lt;p&gt;Week 1o was cut short due to Thanksgiving. I create a simple one-page app that allowed users to keep track of tech jobs - if they have to followup, have a phone interview, or if they have an in-person interview. Unfortunately, I couldn’t get to deploy it on Heroku because I can’t have more than 5 apps on my free account and I didn’t want to delete anything just yet.&lt;/p&gt;
+
+&lt;p&gt;Happy Thanksgiving!&lt;/p&gt;
+</description>
+                <link>http://mcsuth.github.io/general%20assembly/2013/12/01/week-9---10-general-assembly--wdi-sf</link>
+                <guid>http://mcsuth.github.io/general%20assembly/2013/12/01/week-9---10-general-assembly--wdi-sf</guid>
+                <pubDate>2013-12-01T00:00:00-08:00</pubDate>
+        </item>
+
+        <item>
                 <title>Week 8: General Assembly – WDI SF</title>
                 <description>
 &lt;p&gt;This week was devoted to project number 2, and this time it was a group effort. We started thinking about our project last week on Friday. However, all of out ideas were conflicting. Somebody wanted to create a task management application, another wanted to create a viral blog-type application, and I wanted to make something that geared towards eliminating homelessness. Unfortunately, my idea wasn’t constructed well enough to win the hearts of my teammates, so we ended up settling on a Facebook analysis/visual representation project.&lt;/p&gt;
@@ -97,8 +117,8 @@ factorial(5) // 120
 
 &lt;p&gt;[gallery type=”square” ids=”411,403,402,412”]&lt;/p&gt;
 </description>
-                <link>http://mcsuth.github.io/2013/11/19/week-8-general-assembly--wdi-sf</link>
-                <guid>http://mcsuth.github.io/2013/11/19/week-8-general-assembly--wdi-sf</guid>
+                <link>http://mcsuth.github.io/general%20assembly/2013/11/19/week-8-general-assembly--wdi-sf</link>
+                <guid>http://mcsuth.github.io/general%20assembly/2013/11/19/week-8-general-assembly--wdi-sf</guid>
                 <pubDate>2013-11-19T00:00:00-08:00</pubDate>
         </item>
 
