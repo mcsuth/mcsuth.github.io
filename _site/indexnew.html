@@ -1,17 +1,34 @@
 <html>
 <head>
   <title>hola, how are you developing?</title>
+  <!-- JQUERY -->
+  <script type="text/javascript" src="homepage/jquery.js"></script>   
+  <!-- BOOTSTRAP CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <!-- GOOGLE FONTS -->
   <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
-  <!-- <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> -->
+  <!-- CUSTOM CSS -->
   <link rel="stylesheet" type="text/css" href="stylenew.css">
+<script type="text/javascript">
+$('.developing').hide();
+$('.doing').mouseover(
+  function() {
+    $('.doing').css('text-decoration', 'line-through');
+    $('.developing').fadeIn();
+  }
+);
+setInterval( function() {
+  $('.doing').css('text-decoration', 'none');
+  $('.developing').fadeOut();
+}, 1000)
+</script>
 </head>
 <body>
   <div class="block1 text-center">
     <img src="homepage/clearhanuman.svg">
     <div class="introtext">
-      <div>hola, i'm <a>seimith</a>.</div>
-      <div>how are you <a>doing</a> developing?</div>
+      <div>hola, i'm <a>seimith</a> .</div>
+      <div>how are you <a class="doing">doing</a> <span class="developing">developing</span>?</div>
     </div>
   </div>
   <div class="block2"></div>
