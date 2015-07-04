@@ -1,0 +1,186 @@
+---
+layout: post
+title: Deploying Sinatra to Heroku
+date: 2014-02-24 22:20:11.000000000 -08:00
+categories:
+- Ruby
+- Web Development
+tags:
+- Heroku
+- Sinatra
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '54443590'
+  _publicize_pending: '1'
+  _oembed_65aa24e93b3b329108d8233148eec32f: '{{unknown}}'
+  _oembed_a12b793a4779b509431ed0258d5284a6: '{{unknown}}'
+  _oembed_be78b448dbbcd42ce9e473c8c6708644: '{{unknown}}'
+  _oembed_c63e367913b2473ff0eac5f4913629eb: '{{unknown}}'
+author:
+  login: smithsuth
+  email: Seimith@gmail.com
+  display_name: mcsuth
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Hosting Rails app on Heroku is pretty straightforward - minus the preasset compiling issues you get with using Bootstrap and etc. However, recently I began revisiting my Sinatra apps. I haven't put any of them up on Heroku but now I want to because I'm interested in creating smaller web apps that don't need to a heavy Rails platform.</p>
+<p><b>General Structure of Sinatra Application Files:</b><br />
+The structure should look something like this:</p>
+<ul>
+<li><strong>/ app /</strong>
+<ul>
+<li><strong>/ views /</strong>
+<ul>
+<li><strong>firstLandingPage.erb</strong></li>
+<li><strong>secondLandingPage.erb</strong><br />
+(THIS IS WHERE YOUR ERB[Embeded Ruby]/HTML FILES LIVE )</li>
+</ul>
+</li>
+<li><strong>/ public /</strong>
+<ul>
+<li><strong>pubilcFilesHere.png</strong><br />
+(THIS IS WHERE YOUR PICTURES AND OTHER PUBLIC DOCS LIVE)</li>
+</ul>
+</li>
+<li><strong>app.rb</strong><br />
+(THIS IS YOUR ROUTES AND CONTROLLER ROLLED UP IN ONE)</li>
+<li><strong>Gemfile</strong><br />
+(THIS IS WHERE YOU PUT YOUR RUBY GEMS)<br />
+(BY HAVING THIS FILE, IT "NOTIFIES/TELLS" HEROKU THAT THIS APP USES RUBY)</li>
+<li><strong>config.ru</strong><br />
+(IF YOU WANT TO DEPLOY YOUR SINATRA APP TO HEROKU YOU NEED THIS)<br />
+(CHECK OUT: http://www.sinatrarb.com/intro.html#When%20to%20use%20a%20config.ru?)</li>
+<li><strong>Procfile</strong><br />
+(IF YOU WANT TO DEPLOY YOUR SINATRA APP TO HEROKU YOU NEED THIS TOO)</li>
+</ul>
+</li>
+</ul>
+<p><strong>Step 1. Gem Install Sinatra</strong></p>
+<pre><code><span style="text-decoration:underline;">In Your Command Line</span>
+&gt;&gt; gem install sinatra</code></pre>
+<p><strong>Step 2. Create Your Sinatra App!</strong></p>
+<pre><code><span style="text-decoration:underline;">In your root directory "MyCoolSinatraApp":</span>
+&gt;&gt; cd MyCoolSinatraApp
+&gt;&gt; mkdir views
+&gt;&gt; mkdir public
+&gt;&gt; touch app.rb
+&gt;&gt; touch config.ru
+&gt;&gt; touch Gemfile
+&gt;&gt; touch Procfile</code>
+
+<code><span style="text-decoration:underline;">Go into your "views/" and "public" folders and create and add files:</span>
+&gt;&gt; cd views
+&gt;&gt; touch firstLandingPage.erb
+&gt;&gt; touch secondLandingPage.erb
+&gt;&gt; cd ..
+&gt;&gt; cd public
+&gt;&gt; etc...
+</code>
+<code><span style="text-decoration:underline;">Edit Your Routes and Controller "app.rb":</span>
+require 'sinatra'
+
+get '/' do
+  erb :firstLandingPage
+end
+</code><code>get '/secondLandingPage' do
+  erb :secondLandingPage
+</code><code>end</code><code></code>
+
+<span style="text-decoration:underline;"><code>Edit Your ERB/HTML FILES "views/</code><code>firstLandingPage.erb</code></span><code><span style="text-decoration:underline;">":</span>
+&lt;h1&gt;First Landing Page&lt;/h1&gt;
+&lt;a href="secondLandingPage"&gt;Second Landing Page&lt;/a&gt;
+
+</code><span style="text-decoration:underline;"><code>Edit Your ERB/HTML FILES "views/</code><code>firstLandingPage.erb</code></span><code><span style="text-decoration:underline;">":</span>
+&lt;h1&gt;Second Landing Page&lt;/h1&gt;</code>
+
+<code><span style="text-decoration:underline;">Run You App:</span>
+&gt;&gt; ruby app.rb
+    [2014-02-24 13:29:36] INFO  WEBrick 1.3.1
+    [2014-02-24 13:29:36] INFO  ruby 2.0.0 (2013-06-27) [x86_64-darwin12.3.0]
+    == Sinatra/1.4.4 has taken the stage on 4567 for development with backup 
+</code>
+<code><span style="text-decoration:underline;">In Your Browser Go To:</span>
+http://localhost:4567
+   Make sure it works.
+</code></pre>
+<p><strong>3. Edit Your "Gemfile":</strong></p>
+<pre><code><span style="text-decoration:underline;">In Your "Gemfile":</span>
+source "https://rubygems.org"
+gem 'sinatra', '1.1.0'</code>
+
+<code><span style="text-decoration:underline;">In Your Terminal Bundle Install:</span>
+&gt;&gt; bundle install</code></pre>
+<p><strong>4. Edit Your "config.ru":</strong></p>
+<pre><code><span style="text-decoration:underline;">In Your "config.ru" file:</span>
+require './app'
+run Sinatra::Application</code>
+
+<code><span style="text-decoration:underline;">In Your Terminal Run This To Initiate:</span>
+&gt;&gt; rackup config.ru
+    [2014-02-24 13:42:37] INFO  WEBrick 1.3.1
+    [2014-02-24 13:42:37] INFO  ruby 2.0.0 (2013-06-27) [x86_64-darwin12.3.0]
+    [2014-02-24 13:42:37] INFO  WEBrick::HTTPServer#start: pid=6544 port=9292</code>
+
+<code><span style="text-decoration:underline;">In Your Browser Go To:
+</span>http://localhost:9292
+   Make sure it works.</code>
+
+<code><span style="text-decoration:underline;">In Your Terminal:</span>
+</code><code>&gt;&gt; control + c (THIS WILL EXIT)</code></pre>
+<p><strong>5. Edit Your "Procfile":</strong></p>
+<pre><code><span style="text-decoration:underline;">In Your "Procfile" file:</span>
+web: bundle exec rackup config.ru -p $PORT
+</code>
+<code><span style="text-decoration:underline;">In Your Terminal Run This to Initiate
+</span>&gt;&gt; foreman start
+    13:44:34 web.1  | started with pid 6550
+    13:44:36 web.1  | [2014-02-24 13:44:36] INFO  WEBrick 1.3.1
+    13:44:36 web.1  | [2014-02-24 13:44:36] INFO  ruby 2.0.0 (2013-06-27) [x86_64-darwin12.3.0]
+    13:44:36 web.1  | [2014-02-24 13:44:36] INFO  WEBrick::HTTPServer#start: pid=6550 port=5000
+</code>
+<code><span style="text-decoration:underline;">In Your Browser Go To:
+</span>http://localhost:5000
+   Make sure it works.</code>
+
+<code><span style="text-decoration:underline;">In Your Terminal:</span>
+</code><code>&gt;&gt; control + c (THIS WILL EXIT)</code><code>
+</code></pre>
+<p><strong>6. Deploy to Heroku</strong></p>
+<pre><span style="text-decoration:underline;"><code>In Your Root Directory "/</code><code>MyCoolSinatraApp</code><code>":
+</code></span><code>&gt;&gt; git init
+&gt;&gt; heroku --version 
+   (I'm assuming you have heroku, but on harm in double checking)
+&gt;&gt; bundle install 
+   (bundle install again, no harm in doing it again)
+&gt;&gt; git add .
+&gt;&gt; git commit -m "First commit"
+   (no need to git push if you just want to keep it local)
+&gt;&gt; heroku apps:create appnamehere
+   (appnamehere will be the name of the url: appnamehere.heroku.com)
+     Creating appnamehere... done, stack is cedar
+     http://appnamehere.herokuapp.com/ | git@heroku.com:appnamehere.git
+     Git remote heroku added
+&gt;&gt; git remote -v
+   (you should see something like the following)
+     heroku  git@heroku.com:appnamehere.git (fetch)
+     heroku  git@heroku.com:appnamehere.git (push)
+&gt;&gt; git push heroku master</code></pre>
+<p><strong>7. Weird Things</strong><br />
+I usually get the following message right when I initially try to deploy my Sinatra app onto Heroku.</p>
+<pre><code>ssh: Could not resolve hostname heroku.com: nodename nor servname provided, or not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights and the repository exists.</code></pre>
+<p>However, in my terminal I run the following and the deployment commences with no problem.</p>
+<pre><code>&gt;&gt; rackup config.ru
+   (checking localhost/9292 and then exiting control+c)
+
+&gt;&gt; foreman start
+   (checking localhost/5000 and then exiting control+c)
+&gt;&gt; git push heroku master
+   (!success!)
+</code></pre>

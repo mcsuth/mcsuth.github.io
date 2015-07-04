@@ -1,0 +1,37 @@
+---
+layout: post
+title: 'Code School: JavaScript Part 2 (1.7 These Dam Loops)'
+date: 2014-01-18 00:22:21.000000000 -08:00
+categories:
+- San Francisco
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '54443590'
+  _publicize_pending: '1'
+author:
+  login: smithsuth
+  email: Seimith@gmail.com
+  display_name: mcsuth
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<pre><code>var currentGen = 1;
+var totalGen = 19;
+var totalMW = 0;
+
+while (currentGen &lt;= 4) {
+  var megaWatts = 62;
+  var totalMW = totalMW + megaWatts;
+	console.log("Generator #" + currentGen + " is on, adding " + megaWatts + " MW, for a total of " + totalMW + " MW!");
+	currentGen ++;
+}
+for(var nextGen = currentGen; nextGen &lt;= totalGen; nextGen++) {
+  var megaWatts = 124;
+  var totalMW = totalMW + megaWatts;
+  console.log("Generator #" + nextGen + " is on, adding " + megaWatts + " MW, for a total of " + totalMW + " MW!");
+}</code></pre>

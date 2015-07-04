@@ -1,0 +1,70 @@
+---
+layout: post
+title: Longest Word
+date: 2013-08-21 20:37:50.000000000 -07:00
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _publicize_pending: '1'
+  _edit_last: '54443590'
+  original_post_id: '183'
+  _wp_old_slug: '183'
+author:
+  login: smithsuth
+  email: Seimith@gmail.com
+  display_name: mcsuth
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Initial Though Process:</p>
+<ol>
+<li><span style="text-decoration:underline;">Split</span> the string into a new array</li>
+<li><span style="text-decoration:underline;">Loop</span> the new array and find the <span style="text-decoration:underline;">length</span> of each element</li>
+<li>Create an <span style="text-decoration:underline;">if</span> statement that returns the longest element</li>
+</ol>
+<p>However, I kept on getting lost between step 2 and three. I had set up the if statement, but I didn't really know where to go with comparing the lengths of each element. I ended up googling for examples and saw that others created var longest = 0 and var word = null so that they can perform some substitution.</p>
+<p>New Thought Process:</p>
+<ol>
+<li>Split the string into a new array</li>
+<li>Create 2 variables (ie. var1, var2... in my case I used longest, word)</li>
+<li>Loop the new array and find the length of each element</li>
+<li>Create an if statement within the loop that executes if var1 (which is set to 0) is less than the length of the elements in the new array.</li>
+<li>Because var1 was given the value of 0, each element within the new array will be tested against the condition: var1 &lt; length of element in new array.</li>
+<li>Create substitutions so that each element will be compared with each other.</li>
+</ol>
+<ul>
+<li>Basically, this is what happens:<br />
+var1 = 0;<br />
+if var1 &lt; newArray's element's length, then substitute:<br />
+var1 = newArray's element's length and var2 = newArray's element</li>
+<li>Round 1) var1 (value of zero) &lt; 1 (length of "I") so substitute...<br />
+var1 = 1 (length of "I") and var2 = "I"</li>
+<li>Round 2) var1 (value of 1 from "I") &lt; 4 (length of "love") so substitute...<br />
+var1 = 4 (length of "love") and var2 = "love"</li>
+<li>Round 3) var1 (value of 4 from "love") &lt; 6 (length of "eating") so substitute...<br />
+var1 = 6 (length of "eating") and var2="eating"</li>
+<li>Round 4) var 1 (length of 6 from "eating") &lt; 4 (length of "rice")... NOT TRUE SO STOP HERE</li>
+<li>Round 5) return the value of var2 // "eating"</li>
+</ul>
+<p>sen = "I love eating rice.";<br />
+function longestWord(input) {<br />
+var newArray = input.split(" ");<br />
+var var1 = 0;<br />
+var var2 = "";<br />
+for (var i = 0; i &lt; newArray.length; i++) {<br />
+<del>console.log(newArray[i] +":"+ newArray[i].length);</del><br />
+if (var1 &lt; newArray[i].length) {<br />
+var1 = newArray[i].length;<br />
+var2 = newArray[i];<br />
+}<br />
+}<br />
+return (var2 <del>+":"+var2.length</del>);<br />
+}<br />
+longestWord(sen);</p>
+<p>This worked for me. The crossed out sections are superfluous, but I like to see my steps. You may remove them.</p>
+<p>Also, I have no idea how to account for symbols.</p>

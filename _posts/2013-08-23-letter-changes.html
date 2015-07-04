@@ -1,0 +1,49 @@
+---
+layout: post
+title: Letter Changes
+date: 2013-08-23 00:22:06.000000000 -07:00
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _publicize_pending: '1'
+  _edit_last: '54443590'
+  original_post_id: '183'
+  _wp_old_slug: '183'
+author:
+  login: smithsuth
+  email: Seimith@gmail.com
+  display_name: mcsuth
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Using the JavaScript language, have the function LetterChanges(str) take the str parameter being passed and modify it using the following algorithm. Replace every letter in the string with the letter following it in the alphabet (ie. c becomes d, z becomes a). Then capitalize every vowel in this new string (a, e, i, o, u) and finally return this modified string.</p>
+<p>string = "Test.";<br />
+function letterChange(string) {<br />
+var newArray = string.split("");<br />
+var lowerCase = "abcdefghijklmnopqrstuvwxyz".split("");<br />
+var capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");<br />
+var holder = "";<br />
+for (var i = 0; i &lt; newArray.length; i++) {<br />
+for (var k = 0 ; k &lt; capital.length; k ++) {<br />
+if (newArray[i] === capital[k]) {<br />
+//console.log(newArray[i]+"--&gt;"+capital[k-1]);<br />
+x = capital[k-1];<br />
+console.log(x);<br />
+}<br />
+}<br />
+for (var j = 0 ; j &lt; lowerCase.length; j ++) {<br />
+if (newArray[i] === lowerCase[j]) {<br />
+//console.log(newArray[i]+"--&gt;"+lowerCase[j-1]);<br />
+y = lowerCase[j-1];<br />
+console.log(y);<br />
+}<br />
+}<br />
+}<br />
+}<br />
+letterChange(string);</p>
+<p>Will continue later. I'm off to NYC for the weekend!</p>

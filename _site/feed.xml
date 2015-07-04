@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 04 Jul 2015 13:23:47 -0700</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2015 13:23:47 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 04 Jul 2015 05:48:07 -0700</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/07/04/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/07/04/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>6 Months After General Assembly&#39;s WDI Program</title>
+        <description>&lt;p&gt;It&#39;s been 6 months (it&#39;s really been 9 because I was lazy and forgot to post this 3 months ago!) since I completed General Assembly&#39;s WDI program and I&#39;ve been successfully employed as a UI Developer for 4 months now. I&#39;ve been primarily working on AngularJS projects.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;How Did I Get an Internship/Job?&lt;/span&gt;&lt;br /&gt;
+After the WDI program I figured that I would continue studying on my own and also attend any job fair that came my way. Luckily for me I managed to meet a few folks at General Assembly&#39;s meet and greet fair. After that I was off to do a free 2-week internship. While it was great to be doing some work, I wasn&#39;t so thrilled at the lack of mentorship due to the great distance between me and the developer team. One week into the 2-week internship someone got in contact with me about doing some Front-End/UI developing. At first I wasn&#39;t sure if the reach-out was a generic email blast. So, I replied with an honest statement with my skill level (super-ultra-junior-maybe-not-even-junior-but-equivalent-to-a-pre-mature-baby-level), my previous background, and my interests in learning more. Surprisingly enough, I received a response and so we set up an interview to meet.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;The Interview&lt;/span&gt;&lt;br /&gt;
+The interview was 5 hours long. The minute I got to the office I met 2 of the UI developers. We chit-chatted about how I ended up switching careers and then they threw a test at me. It was a few pages of questions on HTML, CSS, jQuery, and JavaScript. After that, I was whisked away to talk to the Head of UI. He ended up critiquing my portfolio (I ended up fixing my portfolio later that night) and then I was again off to meet some more people... I ended up accepting!&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Sep 2014 17:10:42 -0700</pubDate>
+        <link>http://yourdomain.com/san%20francisco/2014/09/14/6-months-after-general-assemblys-wdi-program.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/san%20francisco/2014/09/14/6-months-after-general-assemblys-wdi-program.html</guid>
+        
+        
+        <category>san francisco</category>
+        
+      </item>
+    
+      <item>
+        <title>Deploying Sinatra to Heroku</title>
+        <description>&lt;p&gt;Hosting Rails app on Heroku is pretty straightforward - minus the preasset compiling issues you get with using Bootstrap and etc. However, recently I began revisiting my Sinatra apps. I haven&#39;t put any of them up on Heroku but now I want to because I&#39;m interested in creating smaller web apps that don&#39;t need to a heavy Rails platform.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;General Structure of Sinatra Application Files:&lt;/b&gt;&lt;br /&gt;
+The structure should look something like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;/ app /&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;/ views /&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;firstLandingPage.erb&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;secondLandingPage.erb&lt;/strong&gt;&lt;br /&gt;
+(THIS IS WHERE YOUR ERB[Embeded Ruby]/HTML FILES LIVE )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/ public /&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;pubilcFilesHere.png&lt;/strong&gt;&lt;br /&gt;
+(THIS IS WHERE YOUR PICTURES AND OTHER PUBLIC DOCS LIVE)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;app.rb&lt;/strong&gt;&lt;br /&gt;
+(THIS IS YOUR ROUTES AND CONTROLLER ROLLED UP IN ONE)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemfile&lt;/strong&gt;&lt;br /&gt;
+(THIS IS WHERE YOU PUT YOUR RUBY GEMS)&lt;br /&gt;
+(BY HAVING THIS FILE, IT &quot;NOTIFIES/TELLS&quot; HEROKU THAT THIS APP USES RUBY)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;config.ru&lt;/strong&gt;&lt;br /&gt;
+(IF YOU WANT TO DEPLOY YOUR SINATRA APP TO HEROKU YOU NEED THIS)&lt;br /&gt;
+(CHECK OUT: http://www.sinatrarb.com/intro.html#When%20to%20use%20a%20config.ru?)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Procfile&lt;/strong&gt;&lt;br /&gt;
+(IF YOU WANT TO DEPLOY YOUR SINATRA APP TO HEROKU YOU NEED THIS TOO)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Step 1. Gem Install Sinatra&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your Command Line&lt;/span&gt;
+&amp;gt;&amp;gt; gem install sinatra&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Step 2. Create Your Sinatra App!&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In your root directory &quot;MyCoolSinatraApp&quot;:&lt;/span&gt;
+&amp;gt;&amp;gt; cd MyCoolSinatraApp
+&amp;gt;&amp;gt; mkdir views
+&amp;gt;&amp;gt; mkdir public
+&amp;gt;&amp;gt; touch app.rb
+&amp;gt;&amp;gt; touch config.ru
+&amp;gt;&amp;gt; touch Gemfile
+&amp;gt;&amp;gt; touch Procfile&lt;/code&gt;
+
+&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Go into your &quot;views/&quot; and &quot;public&quot; folders and create and add files:&lt;/span&gt;
+&amp;gt;&amp;gt; cd views
+&amp;gt;&amp;gt; touch firstLandingPage.erb
+&amp;gt;&amp;gt; touch secondLandingPage.erb
+&amp;gt;&amp;gt; cd ..
+&amp;gt;&amp;gt; cd public
+&amp;gt;&amp;gt; etc...
+&lt;/code&gt;
+&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Edit Your Routes and Controller &quot;app.rb&quot;:&lt;/span&gt;
+require &#39;sinatra&#39;
+
+get &#39;/&#39; do
+  erb :firstLandingPage
+end
+&lt;/code&gt;&lt;code&gt;get &#39;/secondLandingPage&#39; do
+  erb :secondLandingPage
+&lt;/code&gt;&lt;code&gt;end&lt;/code&gt;&lt;code&gt;&lt;/code&gt;
+
+&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;code&gt;Edit Your ERB/HTML FILES &quot;views/&lt;/code&gt;&lt;code&gt;firstLandingPage.erb&lt;/code&gt;&lt;/span&gt;&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&quot;:&lt;/span&gt;
+&amp;lt;h1&amp;gt;First Landing Page&amp;lt;/h1&amp;gt;
+&amp;lt;a href=&quot;secondLandingPage&quot;&amp;gt;Second Landing Page&amp;lt;/a&amp;gt;
+
+&lt;/code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;code&gt;Edit Your ERB/HTML FILES &quot;views/&lt;/code&gt;&lt;code&gt;firstLandingPage.erb&lt;/code&gt;&lt;/span&gt;&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&quot;:&lt;/span&gt;
+&amp;lt;h1&amp;gt;Second Landing Page&amp;lt;/h1&amp;gt;&lt;/code&gt;
+
+&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Run You App:&lt;/span&gt;
+&amp;gt;&amp;gt; ruby app.rb
+    [2014-02-24 13:29:36] INFO  WEBrick 1.3.1
+    [2014-02-24 13:29:36] INFO  ruby 2.0.0 (2013-06-27) [x86_64-darwin12.3.0]
+    == Sinatra/1.4.4 has taken the stage on 4567 for development with backup 
+&lt;/code&gt;
+&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your Browser Go To:&lt;/span&gt;
+http://localhost:4567
+   Make sure it works.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;3. Edit Your &quot;Gemfile&quot;:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your &quot;Gemfile&quot;:&lt;/span&gt;
+source &quot;https://rubygems.org&quot;
+gem &#39;sinatra&#39;, &#39;1.1.0&#39;&lt;/code&gt;
+
+&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your Terminal Bundle Install:&lt;/span&gt;
+&amp;gt;&amp;gt; bundle install&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;4. Edit Your &quot;config.ru&quot;:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your &quot;config.ru&quot; file:&lt;/span&gt;
+require &#39;./app&#39;
+run Sinatra::Application&lt;/code&gt;
+
+&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your Terminal Run This To Initiate:&lt;/span&gt;
+&amp;gt;&amp;gt; rackup config.ru
+    [2014-02-24 13:42:37] INFO  WEBrick 1.3.1
+    [2014-02-24 13:42:37] INFO  ruby 2.0.0 (2013-06-27) [x86_64-darwin12.3.0]
+    [2014-02-24 13:42:37] INFO  WEBrick::HTTPServer#start: pid=6544 port=9292&lt;/code&gt;
+
+&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your Browser Go To:
+&lt;/span&gt;http://localhost:9292
+   Make sure it works.&lt;/code&gt;
+
+&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your Terminal:&lt;/span&gt;
+&lt;/code&gt;&lt;code&gt;&amp;gt;&amp;gt; control + c (THIS WILL EXIT)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;5. Edit Your &quot;Procfile&quot;:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your &quot;Procfile&quot; file:&lt;/span&gt;
+web: bundle exec rackup config.ru -p $PORT
+&lt;/code&gt;
+&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your Terminal Run This to Initiate
+&lt;/span&gt;&amp;gt;&amp;gt; foreman start
+    13:44:34 web.1  | started with pid 6550
+    13:44:36 web.1  | [2014-02-24 13:44:36] INFO  WEBrick 1.3.1
+    13:44:36 web.1  | [2014-02-24 13:44:36] INFO  ruby 2.0.0 (2013-06-27) [x86_64-darwin12.3.0]
+    13:44:36 web.1  | [2014-02-24 13:44:36] INFO  WEBrick::HTTPServer#start: pid=6550 port=5000
+&lt;/code&gt;
+&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your Browser Go To:
+&lt;/span&gt;http://localhost:5000
+   Make sure it works.&lt;/code&gt;
+
+&lt;code&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;In Your Terminal:&lt;/span&gt;
+&lt;/code&gt;&lt;code&gt;&amp;gt;&amp;gt; control + c (THIS WILL EXIT)&lt;/code&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;6. Deploy to Heroku&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;code&gt;In Your Root Directory &quot;/&lt;/code&gt;&lt;code&gt;MyCoolSinatraApp&lt;/code&gt;&lt;code&gt;&quot;:
+&lt;/code&gt;&lt;/span&gt;&lt;code&gt;&amp;gt;&amp;gt; git init
+&amp;gt;&amp;gt; heroku --version 
+   (I&#39;m assuming you have heroku, but on harm in double checking)
+&amp;gt;&amp;gt; bundle install 
+   (bundle install again, no harm in doing it again)
+&amp;gt;&amp;gt; git add .
+&amp;gt;&amp;gt; git commit -m &quot;First commit&quot;
+   (no need to git push if you just want to keep it local)
+&amp;gt;&amp;gt; heroku apps:create appnamehere
+   (appnamehere will be the name of the url: appnamehere.heroku.com)
+     Creating appnamehere... done, stack is cedar
+     http://appnamehere.herokuapp.com/ | git@heroku.com:appnamehere.git
+     Git remote heroku added
+&amp;gt;&amp;gt; git remote -v
+   (you should see something like the following)
+     heroku  git@heroku.com:appnamehere.git (fetch)
+     heroku  git@heroku.com:appnamehere.git (push)
+&amp;gt;&amp;gt; git push heroku master&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;7. Weird Things&lt;/strong&gt;&lt;br /&gt;
+I usually get the following message right when I initially try to deploy my Sinatra app onto Heroku.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ssh: Could not resolve hostname heroku.com: nodename nor servname provided, or not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights and the repository exists.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;However, in my terminal I run the following and the deployment commences with no problem.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt; rackup config.ru
+   (checking localhost/9292 and then exiting control+c)
+
+&amp;gt;&amp;gt; foreman start
+   (checking localhost/5000 and then exiting control+c)
+&amp;gt;&amp;gt; git push heroku master
+   (!success!)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Mon, 24 Feb 2014 22:20:11 -0800</pubDate>
+        <link>http://yourdomain.com/ruby/web%20development/2014/02/24/deploying-sinatra-to-heroku.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/ruby/web%20development/2014/02/24/deploying-sinatra-to-heroku.html</guid>
+        
+        <category>Heroku</category>
+        
+        <category>Sinatra</category>
+        
+        
+        <category>ruby</category>
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Git Branching</title>
+        <description>&lt;p&gt;Branching is great if you want to control what gets deployed. In this post I&#39;ve attempted to illustrate the basics of branching. So here are some awesome flow charts and git commands. Next post will most likely be on Merging! &lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;Branching&quot; href=&quot;http://mcsuth.files.wordpress.com/2014/02/screenshot-2014-02-03-at-10-09-22-pm.png&quot;&gt;&lt;img alt=&quot;Git&quot; src=&quot;assets/screenshot-2014-02-03-at-10-09-22-pm.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Feb 2014 06:17:17 -0800</pubDate>
+        <link>http://yourdomain.com/web%20development/2014/02/04/git.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/web%20development/2014/02/04/git.html</guid>
+        
+        <category>Git</category>
+        
+        <category>web development</category>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Pimp Your Bash</title>
+        <description>&lt;p&gt;&lt;strong&gt;Open your .bash_profile or .bashrc file by doing the following:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd
+subl .bash_profile
+&lt;/code&gt;
+&lt;code&gt;subl $HOME/.bashrc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Add this either in your .bash_profile or .bashrc file:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;parse_git_branch() {
+  git branch 2&amp;gt; /dev/null | sed -e &#39;/^[^*]/d&#39; -e &#39;s/* \(.*\)/ ()/&#39;
+}
+&lt;!-- #Cool Colors--&gt;
+export PS1=&quot;\[$(tput bold;tput setaf 6)\]\W\[33[32m\]\$(parse_git_branch)\[33[00m\] \[$(tput bold;tput setaf 6)\]➜ \[$(tput sgr0;tput setaf 7;tput setaf 3)\] &quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;You can just play around with it by doing the following:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;echo $PS1
+  (This will show you how your stuff is formated.)
+export PS1=&quot;[\u]: (\W) &amp;gt;&amp;gt; &quot;
+export PS1=&quot;\e[0;36m [\u] (\W) &amp;gt;&amp;gt; \e[m &quot;
+  (This will temporarily change your settings until you open up your terminal again.)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;http://stackoverflow.com/questions/17811327/git-branch-name-in-prompt&lt;/li&gt;
+&lt;li&gt;http://shapecatcher.com/&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 01 Feb 2014 01:49:44 -0800</pubDate>
+        <link>http://yourdomain.com/web%20development/2014/02/01/pimp-you-bash.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/web%20development/2014/02/01/pimp-you-bash.html</guid>
+        
+        <category>bash</category>
+        
+        <category>fun</category>
+        
+        <category>shell</category>
+        
+        <category>tip</category>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Reflection on General Assembly&#39;s WDI Program</title>
+        <description>&lt;p&gt;So, life after &lt;span style=&quot;text-decoration:line-through;&quot;&gt;college&lt;/span&gt; General Assembly&#39;s Web Development Immersive program. It&#39;s a heart breaker in the sense that I&#39;ve learned so much but yet so little.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Things that I wish I covered/focused on&lt;br /&gt;
+&lt;/strong&gt;&lt;em&gt;Tests Tests Tests.&lt;/em&gt; During the three months I hardly focused on testing. Rspec was something that was slightly covered. However, in the workforce, tests are extremely important. I can actually remember my instructor mentioning before every project: &quot;You guys should really write some tests!&quot; However, my classmates and I were already stressed at internalizing the rudimentary principles of Ruby and Rails. So, naturally, we would all get caught up in coding out our apps and we&#39;d almost never get to write tests for it. If I did manage to have some time to waste, I would slap on some Rspec to test out my models (but that wasn&#39;t real test driven development).&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Things don&#39;t really work like that in the workforce. Test driven development (&quot;TDD&quot;) is extremely important.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;No good company will ever launch an app without any test coverage. There are many reasons why people would argue that TDD is fantastical. However, the one thing that I will stress here is scalability. The larger you grow in terms of users using your app, you will most likely be changing and evolving your app. Apps, programs, software, or whatever shit out there, can be thought as living entities. They will need to either grow, if successful, or flourish, if unsuccessful. Tests can be incredibly important because whenever you update your code things will break and you can use it to target portions of your code and know what to fix.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Git/Github branching, rebasing, fetching, pulling, and branching again!&lt;/em&gt; One of the things that my cohort struggled on was using Git. The concept of having repositories, on let&#39;s just say Github, and pushing to this repository, or folder/thing, was so foreign. Everybody was kind of against it because we all just thought: &quot;Hey, I&#39;ll just make a copy of my folder will all my updates and archive it&quot;, or: &quot;Hey, I&#39;ll just airdrop my work to you!&quot; After copying folders and airdroping documents to each other one person would be assigned with to push to the master repository. Nobody wanted to deal with the steps of creating a branch, rebasing, pull, rebase, merge, push, and etc. Again, in the workforce, Git is wildly utilized.&lt;/p&gt;
+&lt;p&gt;Haml and Coffeescript. Haml is actually easy to pick up, but I thought to myself: &quot;Why? There&#39;s no need to learn HAML, HTML is just dandy.&quot; CoffeeScript on the other hand, I stayed clear of this because I was still trying to learn JavaScript. Long story short, programmers like short hand.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Are programmers lazy? I say they are efficient!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Programmers will find ways to type less. However, this of course, does not apply to everything. In some cases, solving something iteratively may be longer but more efficient in terms of BigO than solving something recursively. But, I feel that in general programmers will end up coding in shorthand.&lt;/p&gt;
+&lt;p&gt;Those are my thoughts so far. There&#39;s just so much to learn and so little time! One can&#39;t possibly learn everything in 3 months because 1) there&#39;s just so many abstract concepts to learn and 2) things are always evolving (a new thing today can be obsolete in 4 months).  While there&#39;s so much to learn, I loved participating in General Assembly&#39;s Web Development Immersive program because it paved the way for my learning. I came out of the program wanting to learn more, and I can say that I am indeed still learning. A few weeks after finishing the program I received the opportunity to intern at a great start up and there&#39;s so much that I&#39;ve never seen before! After the first 3-4 days I&#39;ve covered Cucumber + Selenium testing (behavior driven development), Haml, and I&#39;m swimming deep in Rails.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 31 Jan 2014 21:09:24 -0800</pubDate>
+        <link>http://yourdomain.com/css3/general%20assembly/html5/javascript/life/rails/ruby/san%20francisco/web%20development/2014/01/31/reflection-on-general-assemblys-wdi-program.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/css3/general%20assembly/html5/javascript/life/rails/ruby/san%20francisco/web%20development/2014/01/31/reflection-on-general-assemblys-wdi-program.html</guid>
+        
+        <category>BDD</category>
+        
+        <category>Behavior Driven Development</category>
+        
+        <category>life after</category>
+        
+        <category>reflection</category>
+        
+        <category>TDD</category>
+        
+        <category>Test Driven Development</category>
+        
+        <category>Web Development Immersive</category>
+        
+        
+        <category>css3</category>
+        
+        <category>general assembly</category>
+        
+        <category>html5</category>
+        
+        <category>javascript</category>
+        
+        <category>life</category>
+        
+        <category>rails</category>
+        
+        <category>ruby</category>
+        
+        <category>san francisco</category>
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Code School: JavaScript Part 2 (2.2 A Basic Conditional)</title>
+        <description>&lt;pre&gt;var num = 10;
+
+while(num&amp;gt;0){
+  if (num%2 === 0){
+    console.log(num);
+  }
+  num--;
+}&lt;/pre&gt;
+</description>
+        <pubDate>Sat, 18 Jan 2014 00:23:09 -0800</pubDate>
+        <link>http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-2-2-a-basic-conditional.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-2-2-a-basic-conditional.html</guid>
+        
+        
+        <category>san francisco</category>
+        
+      </item>
+    
+      <item>
+        <title>Code School: JavaScript Part 2 (2.7 Problem Solving with Conditionals)</title>
+        <description>&lt;p&gt;var numSheep = 4;&lt;br /&gt;
+var monthsToPrint = 12;&lt;/p&gt;
+&lt;p&gt;for (var monthNumber = 1; monthNumber &amp;lt;= monthsToPrint; monthNumber++) {&lt;br /&gt;
+if (monthNumber % 4 === 0){&lt;br /&gt;
+reduced = numSheep * .75;&lt;br /&gt;
+numSheep = numSheep - reduced;&lt;br /&gt;
+console.log(&quot;Removing &quot; + reduced + &quot; sheep from the population. Phew!&quot;);&lt;br /&gt;
+} else if (numSheep &amp;gt; 10000) {&lt;br /&gt;
+reduced = numSheep * .5;&lt;br /&gt;
+numSheep = numSheep - reduced;&lt;br /&gt;
+console.log(&quot;Removing &quot; + reduced + &quot; sheep from the population. Phew!&quot;);&lt;br /&gt;
+}&lt;/p&gt;
+&lt;p&gt;numSheep*=4;&lt;br /&gt;
+console.log(&quot;There will be &quot; + numSheep + &quot; sheep after &quot; + monthNumber + &quot; month(s)!&quot;);&lt;br /&gt;
+}&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Jan 2014 00:22:46 -0800</pubDate>
+        <link>http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-2-7-problem-solving-with-conditionals.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-2-7-problem-solving-with-conditionals.html</guid>
+        
+        
+        <category>san francisco</category>
+        
+      </item>
+    
+      <item>
+        <title>Code School: JavaScript Part 2 (1.7 These Dam Loops)</title>
+        <description>&lt;pre&gt;&lt;code&gt;var currentGen = 1;
+var totalGen = 19;
+var totalMW = 0;
+
+while (currentGen &amp;lt;= 4) {
+  var megaWatts = 62;
+  var totalMW = totalMW + megaWatts;
+	console.log(&quot;Generator #&quot; + currentGen + &quot; is on, adding &quot; + megaWatts + &quot; MW, for a total of &quot; + totalMW + &quot; MW!&quot;);
+	currentGen ++;
+}
+for(var nextGen = currentGen; nextGen &amp;lt;= totalGen; nextGen++) {
+  var megaWatts = 124;
+  var totalMW = totalMW + megaWatts;
+  console.log(&quot;Generator #&quot; + nextGen + &quot; is on, adding &quot; + megaWatts + &quot; MW, for a total of &quot; + totalMW + &quot; MW!&quot;);
+}&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Sat, 18 Jan 2014 00:22:21 -0800</pubDate>
+        <link>http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-1-7-these-dam-loops.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-1-7-these-dam-loops.html</guid>
+        
+        
+        <category>san francisco</category>
+        
+      </item>
+    
+      <item>
+        <title>Code School: JavaScript Part 2 (2.3 Using Boolean Flags in Conditionals)</title>
+        <description>&lt;pre&gt;var parkIsOpen = true;
+
+if (parkIsOpen === true) {
+	console.log(&quot;Welcome to the Badlands National Park! Try to enjoy your stay.&quot;);
+} else {
+	console.log(&quot;Sorry, the Badlands are particularly bad today. We&#39;re closed!&quot;)
+}&lt;/pre&gt;
+</description>
+        <pubDate>Sat, 18 Jan 2014 00:21:44 -0800</pubDate>
+        <link>http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-2-3-using-boolean-flags-in-conditionals.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-2-3-using-boolean-flags-in-conditionals.html</guid>
+        
+        
+        <category>san francisco</category>
+        
+      </item>
+    
+  </channel>
+</rss>

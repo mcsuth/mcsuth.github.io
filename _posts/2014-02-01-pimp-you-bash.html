@@ -1,0 +1,51 @@
+---
+layout: post
+title: Pimp Your Bash
+date: 2014-02-01 01:49:44.000000000 -08:00
+categories:
+- Web Development
+tags:
+- bash
+- fun
+- shell
+- tip
+status: publish
+type: post
+published: true
+meta:
+  _publicize_pending: '1'
+  _edit_last: '54443590'
+author:
+  login: smithsuth
+  email: Seimith@gmail.com
+  display_name: mcsuth
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><strong>Open your .bash_profile or .bashrc file by doing the following:</strong></p>
+<pre><code>cd
+subl .bash_profile
+</code>
+<code>subl $HOME/.bashrc
+</code></pre>
+<p><strong>Add this either in your .bash_profile or .bashrc file:</strong></p>
+<pre><code>parse_git_branch() {
+  git branch 2&gt; /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ ()/'
+}
+<!-- #Cool Colors-->
+export PS1="\[$(tput bold;tput setaf 6)\]\W\[33[32m\]\$(parse_git_branch)\[33[00m\] \[$(tput bold;tput setaf 6)\]➜ \[$(tput sgr0;tput setaf 7;tput setaf 3)\] "
+</code></pre>
+<p><strong>You can just play around with it by doing the following:</strong></p>
+<pre><code>echo $PS1
+  (This will show you how your stuff is formated.)
+export PS1="[\u]: (\W) &gt;&gt; "
+export PS1="\e[0;36m [\u] (\W) &gt;&gt; \e[m "
+  (This will temporarily change your settings until you open up your terminal again.)
+</code></pre>
+<p><strong>Sources:</strong></p>
+<ul>
+<li>http://stackoverflow.com/questions/17811327/git-branch-name-in-prompt</li>
+<li>http://shapecatcher.com/</li>
+</ul>

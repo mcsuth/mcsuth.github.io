@@ -1,0 +1,33 @@
+---
+layout: post
+title: SPLAT (*) ARGUMENTS
+date: 2013-09-21 23:27:48.000000000 -07:00
+categories:
+- San Francisco
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '54443590'
+  _publicize_pending: '1'
+author:
+  login: smithsuth
+  email: Seimith@gmail.com
+  display_name: mcsuth
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<pre><code>	def describe_favorites( * games)
+	  for game in games
+	    puts "Favorite Game: #{game}"
+	  end  
+	end
+	describe_favorites('Mario', 'Contra', 'Metroid')
+
+	//==&gt; Favorite Game: Mario
+	//==&gt; Favorite Game: Contra
+	//==&gt; Favorite Game: Metroid
+</code></pre>
