@@ -6,35 +6,114 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Jul 2015 14:25:01 -0700</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2015 14:25:01 -0700</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2015 15:09:46 -0700</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2015 15:09:46 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Wordpress to Jekyll Blog</title>
+        <description>
+&lt;p&gt;So you’ve got a github personal website @ &lt;code&gt;yourname.github.io&lt;/code&gt; and now you want to port over your wordpress.com blog over. Follow through so checkout what I did. The downside to this way of importing is that it doesn’t include a way to import image assets.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h2 id=&quot;install-jekyll&quot;&gt;1. Install Jekyll&lt;/h2&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h4 id=&quot;a-install-jekyll-gem&quot;&gt;A. Install Jekyll Gem&lt;/h4&gt;
+&lt;p&gt;Jekyll uses Ruby so you’ll have to install the &lt;a href=&quot;www.google.com&quot;&gt;gem&lt;/a&gt;: &lt;code&gt;gem install jekyll&lt;/code&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;b-troubleshoot&quot;&gt;B. Troubleshoot&lt;/h4&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You try to install the Jekyll gem but you get the errors:&lt;/p&gt;
 
+&lt;p&gt;ERROR:  While executing gem … (Gem::FilePermissionError)
+      You don’t have write permissions for the /Library/Ruby/Gems/2.0.0 directory.&lt;/p&gt;
+
+&lt;p&gt;Run &lt;code&gt;sudo gem install jekyll&lt;/code&gt; to force that shit. And since you’re sudo-ing this command you will need to input your password.&lt;/p&gt;
+
+&lt;h4 id=&quot;c-create-blog&quot;&gt;C. Create Blog&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;jekyll new bloggity&lt;/code&gt; This will create a ‘bloggity’ directory.&lt;/p&gt;
+
+&lt;h2 id=&quot;port-over-wordpresscom-content&quot;&gt;2. Port Over Wordpress.com Content&lt;/h2&gt;
+
+&lt;h4 id=&quot;a-export-xml-from-wordpresscom&quot;&gt;A. Export XML from Wordpress.com&lt;/h4&gt;
+
+&lt;p&gt;Go to &lt;code&gt;https://[your-blog-name].wordpress.com/wp-admin/export.php?type=export&lt;/code&gt; to download your XML file. Once you’re downloaded the XML file move it to your &lt;code&gt;bloggity&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;h4 id=&quot;b-start-importing-content&quot;&gt;B. Start Importing Content&lt;/h4&gt;
+
+&lt;p&gt;Run the following command &lt;code&gt;ruby -rubygems -e &#39;require &quot;jekyll-import&quot;; JekyllImport::Importers::WordpressDotCom.run({ &quot;source&quot; =&amp;gt; &quot;./[your-blog-name.wordpress.xxx-xx-xx].xml&quot; })&#39;&lt;/code&gt; This use the &lt;a href=&quot;https://github.com/hpricot/hpricot&quot;&gt;Hpricot&lt;/a&gt; gem to parse through the HTML content of your blog. NOTE: Hpricot is no longer maintained.&lt;/p&gt;
+
+&lt;p&gt;You may get an error about Hpricot so you will need to &lt;code&gt;gem install hpricot&lt;/code&gt; or &lt;code&gt;sudo gem install hpricot&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;c-check-out-your-blog&quot;&gt;C. Check out your blog&lt;/h4&gt;
+&lt;p&gt;Run the command &lt;code&gt;jekyll serve --watch&lt;/code&gt; while you’re in your &lt;code&gt;bloggity&lt;/code&gt; folder and your blog will serve up on &lt;code&gt;localhost:4000&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;restructure-your-github-pages&quot;&gt;3. Restructure Your Github Pages&lt;/h2&gt;
+
+&lt;h4 id=&quot;a-move-blog-out-to-main-directory&quot;&gt;A. Move blog out to main directory&lt;/h4&gt;
+&lt;p&gt;So now, you’re thinking: &lt;code&gt;Cool, now I have my blog in some other folder inside my github page. I want to have a static index.html and I want to link off to &#39;/blog&#39; to go to my blog.&lt;/code&gt; Let’s restructure some shit.&lt;/p&gt;
+
+&lt;p&gt;If you &lt;code&gt;cd ../&lt;/code&gt; out into the main directory your &lt;code&gt;bloggity&lt;/code&gt; folder structure should only contain the nested folder &lt;code&gt;bloggity&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Move all the contents of &lt;code&gt;bloggity&lt;/code&gt; out up into the main directory so that the folder structure looks like the following (you will then have an empty &lt;code&gt;bloggity&lt;/code&gt; folder):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;_attachments/     _site/
+_config.yml       about.md
+_includes/        assets/
+_layouts/       bloggity
+_nav_menu_items/    [your-blog-name.wordpress.xxx-xx-xx].xml
+_pages/         css/
+_posts/         feed.xml
+_sass/          index.html
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;b-move-indexhtml-inside-bloggity-folder-with-mv-indexhtml-bloggityindexhtml&quot;&gt;B. Move index.html inside &lt;code&gt;bloggity&lt;/code&gt; folder with &lt;code&gt;mv index.html bloggity/index.html&lt;/code&gt;&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;Bloggity&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+    Hi, checkout mah blog @ &amp;lt;a href=&quot;bloggity/&quot;&amp;gt;here&amp;lt;/a&amp;gt;.
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;c-create-your-static-indexhtml-page-in-the-main-folder&quot;&gt;C. Create your static index.html page in the main folder&lt;/h4&gt;
+
+&lt;h4 id=&quot;d-check-out-httplocalhost4000-and-your-blog-at-httplocalhost4000bloggity&quot;&gt;D. Check out &lt;code&gt;http://localhost:4000/&lt;/code&gt; and your blog at &lt;code&gt;http://localhost:4000/bloggity/&lt;/code&gt;&lt;/h4&gt;
+
+&lt;h1 id=&quot;some-jekkyll-shortcuts&quot;&gt;Some Jekkyll Shortcuts&lt;/h1&gt;
+
+&lt;p&gt;Start server with console updates: &lt;code&gt;jekyll serve --watch&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Create a post: &lt;code&gt;rake post title=&quot;Wazzap&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Create a page: &lt;code&gt;rake page name=&quot;pages/about.md&quot;&lt;/code&gt;
+or &lt;code&gt;rake page name=&quot;pages/about&quot;&lt;/code&gt; - this will create the file: ./pages/about/index.html&lt;/p&gt;
+
+&lt;p&gt;Publish: &lt;code&gt;git add .&lt;/code&gt; &lt;code&gt;git commit -m &quot;Add new content&quot;&lt;/code&gt; &lt;code&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 04 Jul 2015 05:48:07 -0700</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/07/04/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/07/04/welcome-to-jekyll.html</guid>
-        
+        <pubDate>Sat, 04 Jul 2015 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/tutorial/tips/2015/07/04/wordress-toj-ekyll-world.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/tutorial/tips/2015/07/04/wordress-toj-ekyll-world.html</guid>
         
         <category>jekyll</category>
         
-        <category>update</category>
+        <category>github pages</category>
+        
+        <category>wordpress.com</category>
+        
+        <category>ruby</category>
+        
+        <category>gems</category>
+        
+        <category>git</category>
+        
+        
+        <category>tutorial</category>
+        
+        <category>tips</category>
         
       </item>
     
