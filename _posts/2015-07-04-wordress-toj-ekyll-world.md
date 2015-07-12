@@ -77,7 +77,7 @@ Move all the contents of `bloggity` out up into the main directory so that the f
 #### D. Check out `http://localhost:4000/` and your blog at `http://localhost:4000/bloggity/`
 
 
-# Some Jekkyll Shortcuts
+# Some Jekyll Shortcuts
 
 Start server with console updates: `jekyll serve --watch`
 

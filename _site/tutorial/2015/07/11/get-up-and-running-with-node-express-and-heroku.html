@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Get Up and Running with Node, Express, and Heroku</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Optional theme -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="/assets/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/custom/css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div>
+    <!-- <div id="wrap"> -->
+      <!-- <nav class="navbar navbar-default hidden" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Your awesome title</a>
+          <a class="navbar-brand" href="/blog">Your awesome title</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/blog/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/blog/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+      	
+      	<li><a href="/blog/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </nav> -->
+
+      <div class="col-md-10 col-md-offset-1">
+        
+<div class="">
+  <h1>Get Up and Running with Node, Express, and Heroku </h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-xs-12">
+    <div class="date">
+      <span>11 July 2015</span>
+    </div>
+    <div class="content">
+      
+<h2 id="initialize-your-node-project">1. Initialize your node project</h2>
+
+<p><code>npm init</code></p>
+
+<p>name: [name-of-your-project]
+  version: [0.0.0]
+  description: [a-description-here]
+  entry point: (server.js) *this is auto-populate
+  test command: [-]
+  git repository:
+  keywords:
+  author:
+  license: (ISC)</p>
+
+<p>A <code>package.json</code> document will be created and you should get something similar to the following:</p>
+
+<p>{
+    “name”: “playgroundone”,
+    “version”: “0.0.0”,
+    “description”: “playground time”,
+    “main”: “server.js”,
+    “scripts”: {
+      “test”: “echo "Error: no test specified" &amp;&amp; exit 1”
+    },
+    “author”: “”,
+    “license”: “ISC”
+  }</p>
+
+<h2 id="install-node-dependencies">2. Install Node Dependencies</h2>
+
+<p>A. Install Express: <code>npm install express --save</code>
+B. Install React: <code>npm install react --save</code></p>
+
+<h2 id="create-and-edit-your-serverjs">3. Create and Edit Your <code>server.js</code></h2>
+
+<pre><code>var express = require('express');
+var app = express();
+var port = process.env.PORT || 8080;
+
+// Serve static files
+app.use("/", express.static(__dirname));
+
+// Serve your app
+console.log('Served: http://localhost:' + port);
+app.listen(port);
+</code></pre>
+
+<p>Run <code>node server.js</code> in your terminal</p>
+
+<h2 id="create-your-indexhtml">5. Create Your <code>index.html</code></h2>
+
+<p>&lt;!DOCTYPE html&gt;</p>
+<html>
+    <head>
+      <title>Playground</title>
+    </head>
+    <body>
+      Waddap, this is a static page!
+    </body>
+  </html>
+
+<h2 id="create-your-procfile">4. Create Your <code>Procfile</code></h2>
+
+<p>web: node server.js</p>
+
+<h2 id="add-crap-into-your-gitignore-file">5. Add crap into your <code>.gitignore</code> file</h2>
+
+<p>Add <code>node_modules</code> into your <code>.gitignore</code> file so that you don’t push it up to your master. Nobody wants to see all your node modules. Haha jk, but in all seriousness, if you are expect people to collaborate and clone your project repository you don’t want to include the node_nodules for them to download. They can <code>npm install</code> and have it locally.</p>
+
+<h2 id="deploy-to-heroku">6. Deploy to Heroku</h2>
+
+<p>A. Log into your Heroku account in your console: <code>heroku login</code></p>
+
+<pre><code>Email: [your@email.com]
+Password: [typing will be hidden]
+</code></pre>
+
+<p>B. Create your Heroku project: <code>heroku create [name-of-your-project]</code></p>
+
+<ul>
+  <li>
+    <p>This will yield [name-of-your-project].herokuapp.com</p>
+
+    <p>Creating [name-of-your-project]… done, stack is cedar-14
+https://[name-of-your-project].herokuapp.com/ | https://git.heroku.com/[name-of-your-project]git</p>
+  </li>
+</ul>
+
+<p>C. Commit and push to Heroku</p>
+
+<pre><code>git add .
+git commit -m "Init"
+git push heroku master
+</code></pre>
+
+<p>D. Check out your project! <code>heroku open</code></p>
+
+    </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="#tutorial-ref">
+    		tutorial <span>2</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+  
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="#Node-ref">Node <span>1</span></a></li>
+     
+    	<li><a href="#Express-ref">Express <span>1</span></a></li>
+     
+    	<li><a href="#Heroku-ref">Heroku <span>2</span></a></li>
+    
+  
+
+
+
+    </ul>
+  
+
+    <hr>
+    <ul class="pagination">
+    
+      <li class="prev"><a href="/tutorial/tips/2015/07/04/wordress-toj-ekyll-world.html" title="Wordpress to Jekyll Blog">&laquo; Previous</a></li>
+    
+      <li><a href="">Archive</a></li>
+    
+      <li class="next disabled"><a>Next &rarr;</a>
+    
+    </ul>
+    <hr>
+    
+  </div>
+</div>
+
+
+      </div>
+    </div>
+
+      <!-- <div id="footer" class="hidden">
+        <div class="container">
+          <p>&copy; 2015 
+            with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+            and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+          </p>
+        </div>
+      </div id="footer"> -->
+
+    
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

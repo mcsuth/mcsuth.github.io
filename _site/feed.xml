@@ -6,9 +6,124 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Jul 2015 15:14:31 -0700</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2015 15:14:31 -0700</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2015 21:17:17 -0700</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2015 21:17:17 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Get Up and Running with Node, Express, and Heroku</title>
+        <description>
+&lt;h2 id=&quot;initialize-your-node-project&quot;&gt;1. Initialize your node project&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;npm init&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;name: [name-of-your-project]
+  version: [0.0.0]
+  description: [a-description-here]
+  entry point: (server.js) *this is auto-populate
+  test command: [-]
+  git repository:
+  keywords:
+  author:
+  license: (ISC)&lt;/p&gt;
+
+&lt;p&gt;A &lt;code&gt;package.json&lt;/code&gt; document will be created and you should get something similar to the following:&lt;/p&gt;
+
+&lt;p&gt;{
+    “name”: “playgroundone”,
+    “version”: “0.0.0”,
+    “description”: “playground time”,
+    “main”: “server.js”,
+    “scripts”: {
+      “test”: “echo &quot;Error: no test specified&quot; &amp;amp;&amp;amp; exit 1”
+    },
+    “author”: “”,
+    “license”: “ISC”
+  }&lt;/p&gt;
+
+&lt;h2 id=&quot;install-node-dependencies&quot;&gt;2. Install Node Dependencies&lt;/h2&gt;
+
+&lt;p&gt;A. Install Express: &lt;code&gt;npm install express --save&lt;/code&gt;
+B. Install React: &lt;code&gt;npm install react --save&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;create-and-edit-your-serverjs&quot;&gt;3. Create and Edit Your &lt;code&gt;server.js&lt;/code&gt;&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;var express = require(&#39;express&#39;);
+var app = express();
+var port = process.env.PORT || 8080;
+
+// Serve static files
+app.use(&quot;/&quot;, express.static(__dirname));
+
+// Serve your app
+console.log(&#39;Served: http://localhost:&#39; + port);
+app.listen(port);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run &lt;code&gt;node server.js&lt;/code&gt; in your terminal&lt;/p&gt;
+
+&lt;h2 id=&quot;create-your-indexhtml&quot;&gt;5. Create Your &lt;code&gt;index.html&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
+&lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;Playground&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      Waddap, this is a static page!
+    &lt;/body&gt;
+  &lt;/html&gt;
+
+&lt;h2 id=&quot;create-your-procfile&quot;&gt;4. Create Your &lt;code&gt;Procfile&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;web: node server.js&lt;/p&gt;
+
+&lt;h2 id=&quot;add-crap-into-your-gitignore-file&quot;&gt;5. Add crap into your &lt;code&gt;.gitignore&lt;/code&gt; file&lt;/h2&gt;
+
+&lt;p&gt;Add &lt;code&gt;node_modules&lt;/code&gt; into your &lt;code&gt;.gitignore&lt;/code&gt; file so that you don’t push it up to your master. Nobody wants to see all your node modules. Haha jk, but in all seriousness, if you are expect people to collaborate and clone your project repository you don’t want to include the node_nodules for them to download. They can &lt;code&gt;npm install&lt;/code&gt; and have it locally.&lt;/p&gt;
+
+&lt;h2 id=&quot;deploy-to-heroku&quot;&gt;6. Deploy to Heroku&lt;/h2&gt;
+
+&lt;p&gt;A. Log into your Heroku account in your console: &lt;code&gt;heroku login&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Email: [your@email.com]
+Password: [typing will be hidden]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;B. Create your Heroku project: &lt;code&gt;heroku create [name-of-your-project]&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This will yield [name-of-your-project].herokuapp.com&lt;/p&gt;
+
+    &lt;p&gt;Creating [name-of-your-project]… done, stack is cedar-14
+https://[name-of-your-project].herokuapp.com/ | https://git.heroku.com/[name-of-your-project]git&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;C. Commit and push to Heroku&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &quot;Init&quot;
+git push heroku master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;D. Check out your project! &lt;code&gt;heroku open&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Jul 2015 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/tutorial/2015/07/11/get-up-and-running-with-node-express-and-heroku.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/tutorial/2015/07/11/get-up-and-running-with-node-express-and-heroku.html</guid>
+        
+        <category>Node</category>
+        
+        <category>Express</category>
+        
+        <category>Heroku</category>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
     
       <item>
         <title>Wordpress to Jekyll Blog</title>
@@ -83,7 +198,7 @@ _sass/          index.html
 
 &lt;h4 id=&quot;d-check-out-httplocalhost4000-and-your-blog-at-httplocalhost4000bloggity&quot;&gt;D. Check out &lt;code&gt;http://localhost:4000/&lt;/code&gt; and your blog at &lt;code&gt;http://localhost:4000/bloggity/&lt;/code&gt;&lt;/h4&gt;
 
-&lt;h1 id=&quot;some-jekkyll-shortcuts&quot;&gt;Some Jekkyll Shortcuts&lt;/h1&gt;
+&lt;h1 id=&quot;some-jekyll-shortcuts&quot;&gt;Some Jekyll Shortcuts&lt;/h1&gt;
 
 &lt;p&gt;Start server with console updates: &lt;code&gt;jekyll serve --watch&lt;/code&gt;&lt;/p&gt;
 
@@ -493,25 +608,6 @@ for(var nextGen = currentGen; nextGen &amp;lt;= totalGen; nextGen++) {
         <pubDate>Sat, 18 Jan 2014 00:22:21 -0800</pubDate>
         <link>http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-1-7-these-dam-loops.html</link>
         <guid isPermaLink="true">http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-1-7-these-dam-loops.html</guid>
-        
-        
-        <category>san francisco</category>
-        
-      </item>
-    
-      <item>
-        <title>Code School: JavaScript Part 2 (2.3 Using Boolean Flags in Conditionals)</title>
-        <description>&lt;pre&gt;var parkIsOpen = true;
-
-if (parkIsOpen === true) {
-	console.log(&quot;Welcome to the Badlands National Park! Try to enjoy your stay.&quot;);
-} else {
-	console.log(&quot;Sorry, the Badlands are particularly bad today. We&#39;re closed!&quot;)
-}&lt;/pre&gt;
-</description>
-        <pubDate>Sat, 18 Jan 2014 00:21:44 -0800</pubDate>
-        <link>http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-2-3-using-boolean-flags-in-conditionals.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/san%20francisco/2014/01/18/code-school-javascript-part-2-2-3-using-boolean-flags-in-conditionals.html</guid>
         
         
         <category>san francisco</category>
