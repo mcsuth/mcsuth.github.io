@@ -23,21 +23,22 @@ tags: ['Node', 'Express', 'Heroku']
 
 A `package.json` document will be created and you should get something similar to the following:
 
-  {
-    "name": "playgroundone",
-    "version": "0.0.0",
-    "description": "playground time",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC"
-  }
+    {
+      "name": "playgroundone",
+      "version": "0.0.0",
+      "description": "playground time",
+      "main": "server.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "author": "",
+      "license": "ISC"
+    }
 
 ## 2. Install Node Dependencies
 
 A. Install Express: `npm install express --save`
+
 B. Install React: `npm install react --save`
 
 ## 3. Create Your `index.html`

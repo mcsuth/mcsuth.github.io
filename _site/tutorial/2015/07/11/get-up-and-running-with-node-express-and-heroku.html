@@ -126,36 +126,52 @@
 
 <p><code>npm init</code></p>
 
-<p>name: [name-of-your-project]
-  version: [0.0.0]
-  description: [a-description-here]
-  entry point: (server.js) *this is auto-populate
-  test command: [-]
-  git repository:
-  keywords:
-  author:
-  license: (ISC)</p>
+<pre><code>name: [name-of-your-project]
+version: [0.0.0]
+description: [a-description-here]
+entry point: (server.js) *this is auto-populate
+test command: [-]
+git repository:
+keywords:
+author:
+license: (ISC)
+</code></pre>
 
 <p>A <code>package.json</code> document will be created and you should get something similar to the following:</p>
 
-<p>{
-    “name”: “playgroundone”,
-    “version”: “0.0.0”,
-    “description”: “playground time”,
-    “main”: “server.js”,
-    “scripts”: {
-      “test”: “echo "Error: no test specified" &amp;&amp; exit 1”
-    },
-    “author”: “”,
-    “license”: “ISC”
-  }</p>
+<pre><code>{
+  "name": "playgroundone",
+  "version": "0.0.0",
+  "description": "playground time",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" &amp;&amp; exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+</code></pre>
 
 <h2 id="install-node-dependencies">2. Install Node Dependencies</h2>
 
-<p>A. Install Express: <code>npm install express --save</code>
-B. Install React: <code>npm install react --save</code></p>
+<p>A. Install Express: <code>npm install express --save</code></p>
 
-<h2 id="create-and-edit-your-serverjs">3. Create and Edit Your <code>server.js</code></h2>
+<p>B. Install React: <code>npm install react --save</code></p>
+
+<h2 id="create-your-indexhtml">3. Create Your <code>index.html</code></h2>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Playground&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    Waddap, this is a static page!
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h2 id="create-and-edit-your-serverjs">4. Create and Edit Your <code>server.js</code></h2>
 
 <pre><code>var express = require('express');
 var app = express();
@@ -171,27 +187,15 @@ app.listen(port);
 
 <p>Run <code>node server.js</code> in your terminal</p>
 
-<h2 id="create-your-indexhtml">5. Create Your <code>index.html</code></h2>
-
-<p>&lt;!DOCTYPE html&gt;</p>
-<html>
-    <head>
-      <title>Playground</title>
-    </head>
-    <body>
-      Waddap, this is a static page!
-    </body>
-  </html>
-
-<h2 id="create-your-procfile">4. Create Your <code>Procfile</code></h2>
+<h2 id="create-your-procfile">5. Create Your <code>Procfile</code></h2>
 
 <p>web: node server.js</p>
 
-<h2 id="add-crap-into-your-gitignore-file">5. Add crap into your <code>.gitignore</code> file</h2>
+<h2 id="add-crap-into-your-gitignore-file">6. Add crap into your <code>.gitignore</code> file</h2>
 
 <p>Add <code>node_modules</code> into your <code>.gitignore</code> file so that you don’t push it up to your master. Nobody wants to see all your node modules. Haha jk, but in all seriousness, if you are expect people to collaborate and clone your project repository you don’t want to include the node_nodules for them to download. They can <code>npm install</code> and have it locally.</p>
 
-<h2 id="deploy-to-heroku">6. Deploy to Heroku</h2>
+<h2 id="deploy-to-heroku">7. Deploy to Heroku</h2>
 
 <p>A. Log into your Heroku account in your console: <code>heroku login</code></p>
 
